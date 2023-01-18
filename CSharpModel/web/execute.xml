@@ -1,0 +1,100 @@
+<?xml-stylesheet type='text/xsl' href='prgs.xsl'?><Objects>
+  <Charset>UTF-8</Charset>
+  <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus17Trial/</Path>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Category</ObjName>
+    <ObjDesc>Category</ObjDesc>
+    <ObjLink>category.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Country</ObjName>
+    <ObjDesc>Country</ObjDesc>
+    <ObjLink>country.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Product</ObjName>
+    <ObjDesc>Product</ObjDesc>
+    <ObjLink>product.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Customer</ObjName>
+    <ObjDesc>Customer</ObjDesc>
+    <ObjLink>customer.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>0</ObjCls>
+    <ObjName>Promotion</ObjName>
+    <ObjDesc>Promotion</ObjDesc>
+    <ObjLink>promotion.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>Home</ObjName>
+    <ObjDesc>Home</ObjDesc>
+    <ObjLink>home.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWSeller</ObjName>
+    <ObjDesc>Sellers</ObjDesc>
+    <ObjLink>wwseller.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>WWShoppingCart</ObjName>
+    <ObjDesc>Shopping Carts</ObjDesc>
+    <ObjLink>wwshoppingcart.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>IncreasePrice</ObjName>
+    <ObjDesc>Increase Price</ObjDesc>
+    <ObjLink>increaseprice.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>CustomersAndCountry</ObjName>
+    <ObjDesc>Customers And Country</ObjDesc>
+    <ObjLink>customersandcountry.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>CategoriesAndProducts</ObjName>
+    <ObjDesc>Categories And Products</ObjDesc>
+    <ObjLink>categoriesandproducts.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>Principal</ObjName>
+    <ObjDesc>Principal</ObjDesc>
+    <ObjLink>principal.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>SellersAndProducts</ObjName>
+    <ObjDesc>Sellers And Products</ObjDesc>
+    <ObjLink>sellersandproducts.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>CustomerAndShoppingCartsPanel</ObjName>
+    <ObjDesc>Customer And Shopping Carts Panel</ObjDesc>
+    <ObjLink>customerandshoppingcartspanel.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>13</ObjCls>
+    <ObjName>ProductsPerCountry</ObjName>
+    <ObjDesc>Products Per Country</ObjDesc>
+    <ObjLink>productspercountry.aspx</ObjLink>
+  </Object>
+  <Object>
+    <ObjCls>1</ObjCls>
+    <ObjName>ProductsPerCategory</ObjName>
+    <ObjDesc>Products Per Category</ObjDesc>
+    <ObjLink>productspercategory.aspx</ObjLink>
+  </Object>
+</Objects>

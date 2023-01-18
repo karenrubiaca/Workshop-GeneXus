@@ -1,0 +1,65 @@
+ 
+spec_i([ sdt,[ 0,2,0 ],'Country','Country',0,eng,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,2,0 ],name,'Country').
+struct_dt_i([ 0,2,0 ],namespace,'TallerJAP2022KarenRubiaca').
+struct_dt_i([ 0,2,0 ],significantName,'Country').
+struct_dt_i([ 0,2,0 ],'ObjName','Country').
+struct_dt_i([ 0,2,0 ],'ObjDesc','Country').
+struct_dt_i([ 0,2,0 ],'ExternalName','Country').
+struct_dt_i([ 0,2,0 ],'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_i([ 0,2,0 ],key,[ 3 ]).
+struct_dt_i([ 0,2,0 ],lvl,2).
+struct_dt_i([ 0,2,0 ],fullname,'Country').
+ 
+struct_dt_elem_i([ 0,2,0 ],1,name,'Countryid').
+struct_dt_elem_i([ 0,2,0 ],1,camelname,'CountryId').
+struct_dt_elem_i([ 0,2,0 ],1,basedon,88).
+struct_dt_elem_i([ 0,2,0 ],1,length,4).
+struct_dt_elem_i([ 0,2,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],1,sign,0).
+struct_dt_elem_i([ 0,2,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],1,attributeid,'3').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalName','CountryId').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,2,0 ],2,name,'Countryname').
+struct_dt_elem_i([ 0,2,0 ],2,camelname,'CountryName').
+struct_dt_elem_i([ 0,2,0 ],2,basedon,89).
+struct_dt_elem_i([ 0,2,0 ],2,length,20).
+struct_dt_elem_i([ 0,2,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,2,0 ],2,pic,'').
+struct_dt_elem_i([ 0,2,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],2,attributeid,'4').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalName','CountryName').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,2,0 ],3,name,'Countryflag').
+struct_dt_elem_i([ 0,2,0 ],3,camelname,'CountryFlag').
+struct_dt_elem_i([ 0,2,0 ],3,length,4).
+struct_dt_elem_i([ 0,2,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],3,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],3,pic,'').
+struct_dt_elem_i([ 0,2,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],3,attributeid,'12').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalName','CountryFlag').
+struct_dt_elem_i([ 0,2,0 ],3,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,2,0 ],4,name,'Countryflag_gxi').
+struct_dt_elem_i([ 0,2,0 ],4,camelname,'CountryFlag_GXI').
+struct_dt_elem_i([ 0,2,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],4,isadd,'True').
+struct_dt_elem_i([ 0,2,0 ],4,length,2048).
+struct_dt_elem_i([ 0,2,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],4,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,2,0 ],4,attributeid,'40000').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

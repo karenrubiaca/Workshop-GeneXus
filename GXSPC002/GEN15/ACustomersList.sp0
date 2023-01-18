@@ -1,0 +1,413 @@
+spec_i([ proc,18,'Customers List','CustomersList',78,eng,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 8,[ [ 8,many ],[ 4,one ] ],[],[],[ [ [ 8,4 ],[ 28,18,17,16,6,15 ] ] ],[ [ [ 8,4 ],[] ] ],[ 15 ],'',[],[] ]).
+ 
+tw_i(2,[ [ 4,[ [ 8,6,6 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t(28,2),t(>=,10),t('Fromdate',23) ],[ 28 ],[ t('.NOT.',8),t('null(',1),t('Fromdate',23),t(')',4) ],[] ]).
+cond_constraint_i(2,[ [ t(28,2),t(<=,10),t('Todate',23) ],[ 28 ],[ t('.NOT.',8),t('null(',1),t('Todate',23),t(')',4) ],[] ]).
+ 
+ 
+level_option_i(2,distinct,of([ 15,16,17,18,6 ])).
+ 
+ta_i(2,[ [ [ 8,28 ],[ 4,18 ],[ 4,17 ],[ 4,16 ],[ 8,6 ],[ 4,15 ] ] ]).
+ 
+las_i(2,[ [ 28,18,17,16,6,15 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-7BCDOBV\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','TallerJAP2022KarenRubiaca')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CustomersList')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Customers List')).
+rule_i(0,prop('ObjName','CustomersList')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,output_file(t('CustomersList',3),t(pdf,3))).
+rule_i(0,parm([ 'Fromdate','Todate' ],[])).
+rule_i(0,parmio([ [ 'Fromdate',inout ],[ 'Todate',inout ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,2,t,8,[],[ [],'',[] ]).
+a_i(4,2,r,4,[],[ [ [ 8,6,6 ] ],'ICUSTOMER',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,[]).
+v_i(t,o,3,28).
+v_i(t,o,3,6).
+v_i(r,i,4,6).
+v_i(r,o,4,18).
+v_i(r,o,4,17).
+v_i(r,o,4,16).
+v_i(r,o,4,15).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i(11,[ 'ShoppingCartId',int,4,0,'ZZZ9',0,'Shopping Cart Id','',0 ]).
+attri_i(28,[ 'ShoppingCartDate',date,8,0,'99/99/99',0,'Shopping Cart Date','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',14 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',13 ]).
+attri_i(18,[ 'CustomerPhone',char,20,0,'',0,'Customer Phone','',0 ]).
+attri_i(17,[ 'CustomerEmail',svchar,100,0,'',0,'Customer Email','',0 ]).
+attri_i(16,[ 'CustomerAddress',svchar,1024,0,'',0,'Customer Address','',0 ]).
+attri_i(6,[ 'CustomerId',int,4,0,'ZZZ9',0,'Customer Id','',0 ]).
+attri_i(15,[ 'CustomerName',char,20,0,'',0,'Customer Name','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Todate',[ 'ToDate',date,8,0,'99/99/99',0,'To Date','',9 ]).
+attri_i('Fromdate',[ 'FromDate',date,8,0,'99/99/99',0,'From Date','',8 ]).
+ 
+table_i(4,[ 'Customer',[ 6,15,16,17,18 ],'Customer','Customer' ]).
+table_i(8,[ 'ShoppingCart',[ 11,28,6 ],'Shopping Cart','ShoppingCart' ]).
+ 
+index_i(8,[ '',a,[ 15 ],'' ]).
+index_i(8,[ 'ISHOPPINGCART',u,[ 11 ],'IShoppingCart' ]).
+index_i(4,[ 'ICUSTOMER',u,[ 6 ],'ICustomer' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,12,'CountryFlag_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(89,[ 'Name' ]).
+dom_info_i(88,[ 'Id' ]).
+dom_info_i(43,[ 'GeneXus\Address' ]).
+dom_info_i(45,[ 'GeneXus\Email' ]).
+dom_info_i(48,[ 'GeneXus\Phone' ]).
+ 
+ 
+break_i(2,nvg,1,[ 15 ],[ [ 15,6,16,17,18 ],[ 28 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,8).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,10,17).
+b_group_i(1,3,lit,0,21,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,pb,0,[ t('Title',29,0,7) ]).
+b_line_i([ 1,0 ],1,1,line,0,[ t(' ',3,0,0) ]).
+b_line_i([ 1,1 ],1,1,line,1,[ t('Customers',3,1,34) ]).
+b_line_i([ 1,5 ],1,1,line,5,[ t('From Date:',3,5,11),t('Fromdate',23,5,21) ]).
+b_line_i([ 1,6 ],1,1,line,6,[ t('To Date:',3,6,11),t('Todate',23,6,21) ]).
+b_line_i([ 1,7 ],1,1,line,7,[ t(' ',3,7,0) ]).
+b_line_i(2,2,1,cmd,10,[ t('',121,2,0),t(table,3,2,10),t(8,3,2,10),t('ORDER',39,2,23),t(15,2,2,29) ]).
+b_line_i(3,2,1,cmd,10,[]).
+b_line_i(6,2,1,pb,10,[ t('Detail',29,10,8) ]).
+b_line_i([ 6,0 ],2,1,line,10,[ t(' ',3,0,0) ]).
+b_line_i([ 6,1 ],2,1,line,11,[ t(15,2,1,6) ]).
+b_line_i([ 6,3 ],2,1,line,13,[ t(16,2,3,11),t(18,2,3,47) ]).
+b_line_i([ 6,4 ],2,1,line,14,[ t(17,2,4,11) ]).
+b_line_i([ 6,6 ],2,1,line,16,[ t(' ',3,6,0) ]).
+b_line_i(7,2,1,cmd,17,[ t('',128,7,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,15) ],'; poor performance may be noticed',[ ' in group starting at line ','2','' ],'.' ])).
+ 
+ 
+ 
+lit_i(3,1,t('Customers',3),[ font('Microsoft Sans Serif',40,[]),rect(242,17,534,84),outstyle(none),align(left),valign(top),fore(rgb(0,0,15)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(9,1,t('From Date:',3),[ font('Microsoft Sans Serif',8,[]),rect(83,83,141,97),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(10,1,t('To Date:',3),[ font('Microsoft Sans Serif',8,[]),rect(83,100,128,114),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(11,1,t('Fromdate',23),[ font('Microsoft Sans Serif',8,[]),rect(150,83,199,98),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('&fromdate'),ctrltype(edit,11),ispwd(0),gxcolor([]) ]).
+lit_i(12,1,t('Todate',23),[ font('Microsoft Sans Serif',8,[]),rect(150,100,199,115),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('&todate'),ctrltype(edit,12),ispwd(0),gxcolor([]) ]).
+lit_i(13,1,rect(13),[ rect(33,117,783,117),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline2'),gxcolor([]),borderstyle(0) ]).
+lit_i(2,1,window,[ title('Text'),rect(0,0,827,125),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Title'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(4,6,t(15,2),[ font('Microsoft Sans Serif',12,[]),rect(42,17,189,39),outstyle(none),align(left),valign(top),noclip,fore(rgb(25,25,112)),border(1),format(0),ctlname('15'),ctrltype(edit,4),ispwd(0),gxcolor([]) ]).
+lit_i(5,6,t(16,2),[ font('Microsoft Sans Serif',8,[]),rect(83,50,316,65),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('16'),ctrltype(edit,5),ispwd(0),gxcolor([]) ]).
+lit_i(6,6,t(17,2),[ font('Microsoft Sans Serif',8,[]),rect(83,67,316,82),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('17'),ctrltype(edit,6),ispwd(0),gxcolor([]) ]).
+lit_i(7,6,t(18,2),[ font('Microsoft Sans Serif',8,[]),rect(333,50,438,65),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('18'),ctrltype(edit,7),ispwd(0),gxcolor([]) ]).
+lit_i(8,6,rect(8),[ rect(33,100,783,100),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(1,6,window,[ title('Text'),rect(0,0,827,107),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Detail'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(1,11,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,12,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+calling_main_i(1,18).
+ 
+att_prop_i(2,15,'ExternalName','CustomerName',d).
+att_prop_i(2,15,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,89,v).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','CustomerName',v).
+att_prop_i(2,6,'ExternalName','CustomerId',d).
+att_prop_i(2,6,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,88,v).
+att_prop_i(2,6,'AUTONUMBER','-1',d).
+att_prop_i(2,6,'AUTONUMBER_START','1',d).
+att_prop_i(2,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName','CustomerId',v).
+att_prop_i(2,16,'ExternalName','CustomerAddress',d).
+att_prop_i(2,16,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,idBasedOn,43,v).
+att_prop_i(2,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,16,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'DownloadOffline','0',d).
+att_prop_i(2,16,'VarServiceExtName','',d).
+att_prop_i(2,16,'FullName','CustomerAddress',v).
+att_prop_i(2,17,'ExternalName','CustomerEmail',d).
+att_prop_i(2,17,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,17,'EmptyAsNull','Yes',d).
+att_prop_i(2,17,idBasedOn,45,v).
+att_prop_i(2,17,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,17,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,17,'AttRegEx','^((\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)|(\s*))$',d).
+att_prop_i(2,17,'AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+att_prop_i(2,17,'DownloadOffline','0',d).
+att_prop_i(2,17,'VarServiceExtName','',d).
+att_prop_i(2,17,'FullName','CustomerEmail',v).
+att_prop_i(2,18,'ExternalName','CustomerPhone',d).
+att_prop_i(2,18,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,idBasedOn,48,v).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,'DownloadOffline','0',d).
+att_prop_i(2,18,'VarServiceExtName','',d).
+att_prop_i(2,18,'FullName','CustomerPhone',v).
+att_prop_i(2,28,'ExternalName','ShoppingCartDate',d).
+att_prop_i(2,28,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,28,'EmptyAsNull','Yes',d).
+att_prop_i(2,28,idBasedOn,'',d).
+att_prop_i(2,28,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,28,'AttRegEx','',d).
+att_prop_i(2,28,'AttValidationFailedMsg','',d).
+att_prop_i(2,28,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,28,'DownloadOffline','0',d).
+att_prop_i(2,28,'VarServiceExtName','',d).
+att_prop_i(2,28,'FullName','ShoppingCartDate',v).
+att_prop_i(2,11,'ExternalName','ShoppingCartId',d).
+att_prop_i(2,11,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,88,v).
+att_prop_i(2,11,'AUTONUMBER','-1',d).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'DownloadOffline','0',d).
+att_prop_i(2,11,'VarServiceExtName','',d).
+att_prop_i(2,11,'FullName','ShoppingCartId',v).
+ 
+tbl_prop_i(2,8,'AllDirSuper',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,4,'DirSubor',[ [ 8,[ 6 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 4,[ 6 ] ] ],v).
+ 
+tbl_att_prop_i(2,8,11,'AllowNulls',n).
+tbl_att_prop_i(2,8,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,8,28,'AllowNulls',n).
+tbl_att_prop_i(2,8,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,15,'AllowNulls',n).
+tbl_att_prop_i(2,4,16,'AllowNulls',n).
+tbl_att_prop_i(2,4,17,'AllowNulls',n).
+tbl_att_prop_i(2,4,18,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,18,'CUSTOMERSLIST','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,18,'CUSTOMERSLIST',[ 15,'ACUSTOMERSLIST','Customers List','','','','HTTP' ]).
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

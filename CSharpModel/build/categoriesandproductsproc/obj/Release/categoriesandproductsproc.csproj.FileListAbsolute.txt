@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\categoriesandproductsproc.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\categoriesandproductsproc\obj\Release\categoriesandproductsproc.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\categoriesandproductsproc\obj\Release\categoriesandproductsproc.dll

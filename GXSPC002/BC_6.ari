@@ -1,0 +1,9 @@
+bc_dt_elem_i([ 0,6,0 ],'Customerid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Customername',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Customeraddress',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Customeremail',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Customerphone',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Countryid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Countryname',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Countryname',allownulls,no).
+ 

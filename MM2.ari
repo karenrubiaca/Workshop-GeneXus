@@ -1,0 +1,141 @@
+ 
+ 
+ 
+pgm_main_i(proc,18,'CUSTOMERSLIST',[ 15,'ACUSTOMERSLIST','Customers List','','','','HTTP' ]).
+pgm_main_i(proc,21,'NOTIFICATIONSREGISTRATIONHANDLER',[ 15,'ANOTIFICATIONSREGISTRATIONHANDLER','Notifications Registration Handler','','','','INTERNAL' ]).
+pgm_main_i(web,8,'HOME',[ 15,'HOME','Home','','','','' ]).
+pgm_main_i(web,17,'PRINCIPAL',[ 15,'PRINCIPAL','Principal','','','','' ]).
+pgm_main_i(mnproc,1,'CATEGORY_DATAPROVIDER',[ 15,'ACATEGORY_DATAPROVIDER','Category_Data Provider','','','','INTERNAL' ]).
+pgm_main_i(mnproc,2,'COUNTRY_DATAPROVIDER',[ 15,'ACOUNTRY_DATAPROVIDER','Country_Data Provider','','','','INTERNAL' ]).
+pgm_main_i(mnproc,3,'SELLER_DATAPROVIDER',[ 15,'ASELLER_DATAPROVIDER','Seller_Data Provider','','','','INTERNAL' ]).
+pgm_main_i(mnproc,4,'CUSTOMER_DATAPROVIDER',[ 15,'ACUSTOMER_DATAPROVIDER','Customer_Data Provider','','','','INTERNAL' ]).
+pgm_main_i(mnproc,5,'PRODUCT_DATAPROVIDER',[ 15,'APRODUCT_DATAPROVIDER','Product_Data Provider','','','','INTERNAL' ]).
+ 
+pgm_prop_i(web,23,'SELLERGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,23,'SELLERGENERAL','URLAccess','No').
+pgm_prop_i(web,22,'SHOPPINGCARTPRODUCTWC','WEB_COMP','Yes').
+pgm_prop_i(web,22,'SHOPPINGCARTPRODUCTWC','URLAccess','No').
+pgm_prop_i(web,5,'RWDRECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,5,'RWDRECENTLINKS','URLAccess','No').
+pgm_prop_i(web,9,'TABBEDVIEW','WEB_COMP','Yes').
+pgm_prop_i(web,9,'TABBEDVIEW','URLAccess','No').
+pgm_prop_i(web,2,'RECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,2,'RECENTLINKS','URLAccess','No').
+pgm_prop_i(proc,16,'CATEGORIESANDPRODUCTSPROC','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,15,'SHOPPINGCARTDETAIL','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,17,'PRODUCTSPERCATEGORY','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,18,'ACUSTOMERSLIST','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,18,'CUSTOMERSLIST','CALL_PROTOCOL','HTTP').
+pgm_prop_i(proc,21,'ANOTIFICATIONSREGISTRATIONHANDLER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,21,'NOTIFICATIONSREGISTRATIONHANDLER',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,21,'ANOTIFICATIONSREGISTRATIONHANDLER','SOAP','0').
+pgm_prop_i(proc,21,'NOTIFICATIONSREGISTRATIONHANDLER','SOAP','0').
+pgm_prop_i(proc,22,'GXAFTEREVENTREPLICATOR',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,22,'GXAFTEREVENTREPLICATOR','SOAP','0').
+pgm_prop_i(proc,23,'GXBEFOREEVENTREPLICATOR',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,23,'GXBEFOREEVENTREPLICATOR','SOAP','0').
+pgm_prop_i(proc,24,'GXONPENDINGEVENTFAILED',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,24,'GXONPENDINGEVENTFAILED','SOAP','0').
+pgm_prop_i(proc,25,'DIRECTIONSSERVICEREQUEST',idISPRCWEBSERVICE,'-1').
+pgm_prop_i(proc,25,'DIRECTIONSSERVICEREQUEST','SOAP','0').
+pgm_prop_i(trn,1,'CATEGORY',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,2,'COUNTRY',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(web,24,'SELLERPRODUCTWC','WEB_COMP','Yes').
+pgm_prop_i(web,24,'SELLERPRODUCTWC','URLAccess','No').
+pgm_prop_i(trn,3,'SELLER',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,4,'PRODUCT',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(trn,5,'SHOPPINGCART',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(web,21,'SHOPPINGCARTGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,21,'SHOPPINGCARTGENERAL','URLAccess','No').
+pgm_prop_i(trn,6,'CUSTOMER',idISBUSINESSCOMPONENT,'-1').
+pgm_prop_i(web,1,'APPMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,4,'RWDMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,6,'RWDPROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(mnproc,1,'ACATEGORY_DATAPROVIDER','OutputSDT',o(0,'Category')).
+pgm_prop_i(mnproc,1,'CATEGORY_DATAPROVIDER','OutputSDT',o(0,'Category')).
+pgm_prop_i(mnproc,2,'ACOUNTRY_DATAPROVIDER','OutputSDT',o(0,'Country')).
+pgm_prop_i(mnproc,2,'COUNTRY_DATAPROVIDER','OutputSDT',o(0,'Country')).
+pgm_prop_i(mnproc,3,'ASELLER_DATAPROVIDER','OutputSDT',o(0,'Seller')).
+pgm_prop_i(mnproc,3,'SELLER_DATAPROVIDER','OutputSDT',o(0,'Seller')).
+pgm_prop_i(mnproc,4,'ACUSTOMER_DATAPROVIDER','OutputSDT',o(0,'Customer')).
+pgm_prop_i(mnproc,4,'CUSTOMER_DATAPROVIDER','OutputSDT',o(0,'Customer')).
+pgm_prop_i(mnproc,5,'APRODUCT_DATAPROVIDER','OutputSDT',o(0,'Product')).
+pgm_prop_i(mnproc,5,'PRODUCT_DATAPROVIDER','OutputSDT',o(0,'Product')).
+ 
+model_wrkinfo_i([ '.Net Environment','CSharpModel' ]).
+ 
+model_info_i([ 'Design','CSharpModel',1 ]).
+ 
+datastore_i(1,'DS_LAST_CHANGE','').
+datastore_i(1,'LOCK_RETRY','10').
+datastore_i(1,'WAIT_RECORD','0').
+datastore_i(1,'ISOLATION_LEVEL','CR').
+datastore_i(1,'SQLSERVER_VERSION','10').
+datastore_i(1,'COMMENT_ON','No').
+datastore_i(1,'DFT_TMP_TBLSPACE','').
+datastore_i(1,'DFT_IDX_TBLSPACE','').
+datastore_i(1,'DFT_TBL_TBLSPACE','').
+datastore_i(1,'DCL_REF_INT_DB','Yes').
+datastore_i(1,'PRIMARY_KEY_TYPE','PK').
+datastore_i(1,'CS_SCHEMA','').
+datastore_i(1,'SORT_ATTRIBUTES','Yes').
+datastore_i(1,'JRN400','QSQJRN').
+datastore_i(1,'CREATE_SAVF','Yes').
+datastore_i(1,'PGMLIB','').
+datastore_i(1,'DTALIB','').
+datastore_i(1,'RecycleRWMin','30').
+datastore_i(1,'RecycleRWType','1').
+datastore_i(1,'RecycleRW','-1').
+datastore_i(1,'POOL_STARTUP','No').
+datastore_i(1,'POOLSIZE_RW','10').
+datastore_i(1,'UnlimitedRWPool','-1').
+datastore_i(1,'PoolRWEnabled','-1').
+datastore_i(1,'CS_RPCPGML','').
+datastore_i(1,'JDBC_DATASOURCE','').
+datastore_i(1,'USE_JDBC_DATASOURCE','0').
+datastore_i(1,'DS_DBMS_ADDINFO','').
+datastore_i(1,'USER_PASSWORD','').
+datastore_i(1,'USER_ID','').
+datastore_i(1,'TRUSTED_CONNECTION','Yes').
+datastore_i(1,'CS_CONNECT','First').
+datastore_i(1,'DBMS_PORT','').
+datastore_i(1,'CS_SERVER','DESKTOP-7BCDOBV\SQLEXPRESS').
+datastore_i(1,'CS_DBNAME','TallerJAP2022KarenRubiaca').
+datastore_i(1,'CS_FLEDSNAME','').
+datastore_i(1,'CS_DRVNAME','sql server').
+datastore_i(1,'CS_DSNAME','').
+datastore_i(1,'DB_URL','').
+datastore_i(1,'JDBC_CUSTOM_URL','0').
+datastore_i(1,'JDBC_CUSTOM_DRIVER','').
+datastore_i(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver').
+datastore_i(1,'CONNECT_METHOD','OPSYS').
+datastore_i(1,'ACCESS_TECHNO','ADONET').
+datastore_i(1,'MAIN_DS','-1').
+datastore_i(1,'REORG_GEN','8').
+datastore_i(1,'HelpKeyword','20').
+datastore_i(1,'DBMS',12).
+datastore_i(1,'NAME','Default').
+ 
+subview_i(2,510,2).
+ 
+subtype_group_i(2,1,[ 'ProductCountry',[ [ 9,3 ],[ 33,4 ] ] ]).
+ 
+culture_id_i(eng).
+ 
+lng_i(1,[ 'English','English',eng ]).
+ 
+lng_prop_i(1,'IsRightToLeft','0',d).
+lng_prop_i(1,'ISOLangCode','EN',v).
+lng_prop_i(1,'ISOCountryCode','US',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','ENG',v).
+lng_prop_i(1,'LangTimeFormat','12',v).
+lng_prop_i(1,'LangDecimalPoint','.',v).
+lng_prop_i(1,'FullyQualifiedName','English',d).
+ 
+ver_stamp('20221113.033634').
+ 
+ver_stamp(date(2022,11,13),time(0,46,27,57)).
+ 

@@ -1,0 +1,44 @@
+ 
+spec_i([ sdt,[ 0,1,0 ],'Category','Category',0,eng,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,1,0 ],name,'Category').
+struct_dt_i([ 0,1,0 ],namespace,'TallerJAP2022KarenRubiaca').
+struct_dt_i([ 0,1,0 ],significantName,'Category').
+struct_dt_i([ 0,1,0 ],'ObjName','Category').
+struct_dt_i([ 0,1,0 ],'ObjDesc','Category').
+struct_dt_i([ 0,1,0 ],'ExternalName','Category').
+struct_dt_i([ 0,1,0 ],'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_i([ 0,1,0 ],key,[ 1 ]).
+struct_dt_i([ 0,1,0 ],lvl,1).
+struct_dt_i([ 0,1,0 ],fullname,'Category').
+ 
+struct_dt_elem_i([ 0,1,0 ],1,name,'Categoryid').
+struct_dt_elem_i([ 0,1,0 ],1,camelname,'CategoryId').
+struct_dt_elem_i([ 0,1,0 ],1,basedon,88).
+struct_dt_elem_i([ 0,1,0 ],1,length,4).
+struct_dt_elem_i([ 0,1,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,1,0 ],1,sign,0).
+struct_dt_elem_i([ 0,1,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,1,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,1,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,1,0 ],1,attributeid,'1').
+struct_dt_elem_i([ 0,1,0 ],1,'ExternalName','CategoryId').
+struct_dt_elem_i([ 0,1,0 ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,1,0 ],2,name,'Categoryname').
+struct_dt_elem_i([ 0,1,0 ],2,camelname,'CategoryName').
+struct_dt_elem_i([ 0,1,0 ],2,length,20).
+struct_dt_elem_i([ 0,1,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,1,0 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,1,0 ],2,pic,'').
+struct_dt_elem_i([ 0,1,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,1,0 ],2,attributeid,'2').
+struct_dt_elem_i([ 0,1,0 ],2,'ExternalName','CategoryName').
+struct_dt_elem_i([ 0,1,0 ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

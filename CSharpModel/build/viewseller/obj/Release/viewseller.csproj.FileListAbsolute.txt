@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\viewseller.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\viewseller\obj\Release\viewseller.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\viewseller\obj\Release\viewseller.dll

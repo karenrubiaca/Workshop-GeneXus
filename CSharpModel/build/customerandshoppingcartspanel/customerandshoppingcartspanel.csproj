@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>customerandshoppingcartspanel</AssemblyName>
+		<ProjectGuid>{89ecf29e-bb1c-47d3-ba49-edb2535163ac}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include = "$(WebDirectory)\shoppingcart_bc.cs" />
+		<Compile Include = "$(WebDirectory)\deletecarts.cs" />
+		<Compile Include = "$(WebDirectory)\shoppingcartdetail.cs" />
+		<Compile Include = "$(WebDirectory)\customerslist.cs" />
+		<Compile Include = "$(WebDirectory)\customerandshoppingcartspanel.cs" />
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

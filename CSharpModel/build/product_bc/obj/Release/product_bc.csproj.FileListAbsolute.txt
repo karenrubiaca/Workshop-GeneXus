@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\product_bc.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\product_bc\obj\Release\product_bc.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\product_bc\obj\Release\product_bc.dll

@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\acustomer_dataprovider.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\acustomer_dataprovider\obj\Release\acustomer_dataprovider.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\acustomer_dataprovider\obj\Release\acustomer_dataprovider.dll

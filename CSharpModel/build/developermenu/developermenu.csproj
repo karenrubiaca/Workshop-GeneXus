@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	
+
+	<PropertyGroup>
+		<AssemblyName>developermenu</AssemblyName>
+		<ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<PostgresqlSupport>false</PostgresqlSupport>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include=".\..\acategory_dataprovider\acategory_dataprovider.csproj" />
+		<ProjectReference Include=".\..\acountry_dataprovider\acountry_dataprovider.csproj" />
+		<ProjectReference Include=".\..\aseller_dataprovider\aseller_dataprovider.csproj" />
+		<ProjectReference Include=".\..\acustomer_dataprovider\acustomer_dataprovider.csproj" />
+		<ProjectReference Include=".\..\aproduct_dataprovider\aproduct_dataprovider.csproj" />
+		<ProjectReference Include=".\..\shoppingcartdetail\shoppingcartdetail.csproj" />
+		<ProjectReference Include=".\..\categoriesandproductsproc\categoriesandproductsproc.csproj" />
+		<ProjectReference Include=".\..\productspercategory\productspercategory.csproj" />
+		<ProjectReference Include=".\..\acustomerslist\acustomerslist.csproj" />
+		<ProjectReference Include=".\..\acustomerslist\acustomerslist.csproj" />
+		<ProjectReference Include=".\..\anotificationsregistrationhandler\anotificationsregistrationhandler.csproj" />
+		<ProjectReference Include=".\..\anotificationsregistrationhandler\anotificationsregistrationhandler.csproj" />
+		<ProjectReference Include=".\..\gxaftereventreplicator\gxaftereventreplicator.csproj" />
+		<ProjectReference Include=".\..\gxbeforeeventreplicator\gxbeforeeventreplicator.csproj" />
+		<ProjectReference Include=".\..\gxonpendingeventfailed\gxonpendingeventfailed.csproj" />
+		<ProjectReference Include=".\..\directionsservicerequest\directionsservicerequest.csproj" />
+		<ProjectReference Include=".\..\appmasterpage\appmasterpage.csproj" />
+		<ProjectReference Include=".\..\recentlinks\recentlinks.csproj" />
+		<ProjectReference Include=".\..\promptmasterpage\promptmasterpage.csproj" />
+		<ProjectReference Include=".\..\rwdmasterpage\rwdmasterpage.csproj" />
+		<ProjectReference Include=".\..\rwdrecentlinks\rwdrecentlinks.csproj" />
+		<ProjectReference Include=".\..\rwdpromptmasterpage\rwdpromptmasterpage.csproj" />
+		<ProjectReference Include=".\..\notauthorized\notauthorized.csproj" />
+		<ProjectReference Include=".\..\home\home.csproj" />
+		<ProjectReference Include=".\..\home\home.csproj" />
+		<ProjectReference Include=".\..\tabbedview\tabbedview.csproj" />
+		<ProjectReference Include=".\..\viewseller\viewseller.csproj" />
+		<ProjectReference Include=".\..\wwseller\wwseller.csproj" />
+		<ProjectReference Include=".\..\viewshoppingcart\viewshoppingcart.csproj" />
+		<ProjectReference Include=".\..\wwshoppingcart\wwshoppingcart.csproj" />
+		<ProjectReference Include=".\..\increaseprice\increaseprice.csproj" />
+		<ProjectReference Include=".\..\customersandcountry\customersandcountry.csproj" />
+		<ProjectReference Include=".\..\categoriesandproducts\categoriesandproducts.csproj" />
+		<ProjectReference Include=".\..\principal\principal.csproj" />
+		<ProjectReference Include=".\..\principal\principal.csproj" />
+		<ProjectReference Include=".\..\sellersandproducts\sellersandproducts.csproj" />
+		<ProjectReference Include=".\..\customerandshoppingcartspanel\customerandshoppingcartspanel.csproj" />
+		<ProjectReference Include=".\..\productspercountry\productspercountry.csproj" />
+		<ProjectReference Include=".\..\shoppingcartgeneral\shoppingcartgeneral.csproj" />
+		<ProjectReference Include=".\..\shoppingcartproductwc\shoppingcartproductwc.csproj" />
+		<ProjectReference Include=".\..\sellergeneral\sellergeneral.csproj" />
+		<ProjectReference Include=".\..\sellerproductwc\sellerproductwc.csproj" />
+		<ProjectReference Include=".\..\gx0010\gx0010.csproj" />
+		<ProjectReference Include=".\..\gx0020\gx0020.csproj" />
+		<ProjectReference Include=".\..\gx0030\gx0030.csproj" />
+		<ProjectReference Include=".\..\gx0050\gx0050.csproj" />
+		<ProjectReference Include=".\..\gx0040\gx0040.csproj" />
+		<ProjectReference Include=".\..\gx0091\gx0091.csproj" />
+		<ProjectReference Include=".\..\gx0060\gx0060.csproj" />
+		<ProjectReference Include=".\..\gx0071\gx0071.csproj" />
+		<ProjectReference Include=".\..\category\category.csproj" />
+		<ProjectReference Include=".\..\country\country.csproj" />
+		<ProjectReference Include=".\..\seller\seller.csproj" />
+		<ProjectReference Include=".\..\product\product.csproj" />
+		<ProjectReference Include=".\..\shoppingcart\shoppingcart.csproj" />
+		<ProjectReference Include=".\..\customer\customer.csproj" />
+		<ProjectReference Include=".\..\promotion\promotion.csproj" />
+		<ProjectReference Include=".\..\GeneXus.Programs.Common\GeneXus.Programs.Common.csproj" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="GeneXus.dll" > 
+			<HintPath>$(WebBinDirectory)\GeneXus.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+	<ItemGroup>
+
+	</ItemGroup>
+	
+	<Import Project="..\DotNetBaseProject.targets"/>
+</Project>

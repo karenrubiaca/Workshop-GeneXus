@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\customersandcountry.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\customersandcountry\obj\Release\customersandcountry.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\customersandcountry\obj\Release\customersandcountry.dll

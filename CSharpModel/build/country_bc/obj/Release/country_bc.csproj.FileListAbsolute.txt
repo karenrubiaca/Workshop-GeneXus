@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\country_bc.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\country_bc\obj\Release\country_bc.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\country_bc\obj\Release\country_bc.dll

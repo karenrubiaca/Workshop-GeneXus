@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\shoppingcartproductwc.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\shoppingcartproductwc\obj\Release\shoppingcartproductwc.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\shoppingcartproductwc\obj\Release\shoppingcartproductwc.dll

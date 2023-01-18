@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\gxaftereventreplicator.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\gxaftereventreplicator\obj\Release\gxaftereventreplicator.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\gxaftereventreplicator\obj\Release\gxaftereventreplicator.dll

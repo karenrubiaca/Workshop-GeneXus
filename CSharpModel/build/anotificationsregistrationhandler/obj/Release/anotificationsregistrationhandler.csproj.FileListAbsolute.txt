@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\anotificationsregistrationhandler.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\anotificationsregistrationhandler\obj\Release\anotificationsregistrationhandler.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\anotificationsregistrationhandler\obj\Release\anotificationsregistrationhandler.dll

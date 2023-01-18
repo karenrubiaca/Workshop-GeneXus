@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\increaseprice.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\increaseprice\obj\Release\increaseprice.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\increaseprice\obj\Release\increaseprice.dll

@@ -1,0 +1,131 @@
+
+<ReorgSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Table>
+<TableId>9</TableId>
+<TableName>ShoppingCartProduct</TableName>
+<Description>Product</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>new</ReorgCode>
+<ReorgMsg>ShoppingCartProduct is new</ReorgMsg>
+<ReorgAction>*</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ShoppingCartId</AttriName>
+<Description>Shopping Cart Id</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description>
+<TakesValueFrom></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>QtyProduct</AttriName>
+<Description>Qty Product</Description>
+<TakesValueFrom></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ISHOPPINGCARTPRODUCT</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ShoppingCartId</AttriName>
+<Description>Shopping Cart Id</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ISHOPPINGCARTPRODUCT1</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>5</TableId>
+<TableName>Product</TableName>
+<Description>Product</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>ProductId</AttriName>
+<Description>Product Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>8</TableId>
+<TableName>ShoppingCart</TableName>
+<Description>Shopping Cart</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ShoppingCartId</AttriName>
+<Description>Shopping Cart Id</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [ShoppingCartProduct] ([ShoppingCartId] smallint NOT NULL , [ProductId] smallint NOT NULL , [QtyProduct] smallint NOT NULL , PRIMARY KEY([ShoppingCartId], [ProductId])) </Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ISHOPPINGCARTPRODUCT1] ON [ShoppingCartProduct] ([ProductId] )</Statement>
+<Statement>ALTER TABLE [ShoppingCartProduct] ADD CONSTRAINT [ISHOPPINGCARTPRODUCT2] FOREIGN KEY ([ShoppingCartId]) REFERENCES [ShoppingCart] ([ShoppingCartId])</Statement>
+<Statement>ALTER TABLE [ShoppingCartProduct] ADD CONSTRAINT [ISHOPPINGCARTPRODUCT1] FOREIGN KEY ([ProductId]) REFERENCES [Product] ([ProductId])</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>

@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\tabbedview.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\tabbedview\obj\Release\tabbedview.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\tabbedview\obj\Release\tabbedview.dll

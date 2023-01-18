@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\gx0030.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\gx0030\obj\Release\gx0030.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\gx0030\obj\Release\gx0030.dll

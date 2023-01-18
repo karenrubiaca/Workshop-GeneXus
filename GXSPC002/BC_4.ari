@@ -1,0 +1,24 @@
+bc_dt_elem_i([ 0,4,0 ],'Productid',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productname',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productdescription',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productprice',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productphoto',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productcountryid',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productcountryname',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Productcountryname',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Sellerid',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Sellername',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Sellername',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Sellerphoto',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Sellerphoto',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Categoryid',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Categoryname',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Categoryname',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Countryid',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Countryid',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Countryname',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Countryname',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Productphoto_gxi',allownulls,no).
+bc_dt_elem_i([ 0,4,0 ],'Sellerphoto_gxi',readonly,yes).
+bc_dt_elem_i([ 0,4,0 ],'Sellerphoto_gxi',allownulls,no).
+ 

@@ -1,0 +1,636 @@
+spec_i([ proc,15,'Shopping Cart Detail','ShoppingCartDetail',78,eng,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[ 11 ],[]).
+struct_i(3,2,[ 11 ],[]).
+ 
+level_i(2,[ 8,[ [ 8,many ],[ 4,one ],[ 2,one ],[ 2000,one ] ],[],[],[ [ [ 8,4,2,2000 ],[ 11,4,16,15,29,28,32,6,3 ] ] ],[ [ [ 8,4,2,2000 ],[] ] ],[ 11 ],'ISHOPPINGCART',[ 8,[ [ [],11,11 ] ] ],[] ]).
+level_i(3,[ 9,[ [ 9,many ],[ 5,one ],[ 1,one ] ],[],[],[ [ [ 9,5,1 ],[ 11,40000,23,8,2,22,31,30,7,1 ] ] ],[ [ [ 9,5,1 ],[] ] ],[ 8 ],'',[],[] ]).
+ 
+tw_i(2,[ [ 4,[ [ 8,6,6 ] ] ],[ 2,[ [ 4,3,3 ] ] ],[ 2000,[ [ 8,oe([ t(11,2) ]),11 ] ] ] ]).
+tw_i(3,[ [ 5,[ [ 9,7,7 ] ] ],[ 1,[ [ 5,1,1 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [ c([ t(11,2),t(=,10),t(11,23) ],[ 11 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 8,6 ],[ 4,3 ],[ 8,11 ],[ 2,4 ],[ 4,16 ],[ 4,15 ],[ 2000,se(29,[ [ 2000,29 ] ],[ t('coalesce(',1),t(29,2),t(',',7),t('0',3),t(')',4) ]) ],[ 8,28 ] ] ]).
+ta_i(3,[ [ [ 9,7 ],[ 5,1 ],[ 9,11 ],[ 5,40000 ],[ 5,23 ],[ 5,8 ],[ 1,2 ],[ 5,22 ],[ 9,31 ] ] ]).
+ 
+las_i(2,[ [ 11,4,16,15,29,28,32,6,3 ] ]).
+las_i(3,[ [ 11,40000,23,8,2,22,31,30,7,1 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-7BCDOBV\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','TallerJAP2022KarenRubiaca')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ShoppingCartDetail')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Shopping Cart Detail')).
+rule_i(0,prop('ObjName','ShoppingCartDetail')).
+rule_i(0,maingen(15)).
+rule_i(0,output_file(t('ShoppingCartDetail',3),t(pdf,3))).
+rule_i(0,parm([ 11 ],[ 11 ])).
+rule_i(0,parmio([ [ 11,inout ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,3,f,30,[],[ [],[ t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(+,5),t('5',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Joyería"',3),t(';',18),t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(-,5),t('10',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Entretenimiento"',3),t(';',18),t(31,2),t(*,6),t(22,2),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,3,t,9,[],[ [],'',[] ]).
+a_i(5,3,r,5,[],[ [ [ 9,7,7 ] ],'IPRODUCT',[] ]).
+a_i(6,3,r,1,[],[ [ [ 5,1,1 ] ],'ICATEGORY',[] ]).
+a_i(7,2,f,32,[],[ [],[ t(28,2),t(+,5),t('5',3),t(';',18) ] ]).
+a_i(8,2,t,8,[],[ [ [ [],11,11 ] ],'ISHOPPINGCART',[] ]).
+a_i(9,2,r,4,[],[ [ [ 8,6,6 ] ],'ICUSTOMER',[] ]).
+a_i(10,2,r,2,[],[ [ [ 4,3,3 ] ],'ICOUNTRY',[] ]).
+a_i(11,2,r,2000,[],[ [ [ 8,oe([ t(11,2) ]),11 ] ],'ISHOPPINGCART',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,31).
+v_i(f,i,2,22).
+v_i(f,i,2,2).
+v_i(f,o,2,30).
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,[]).
+v_i(t,o,4,7).
+v_i(t,o,4,11).
+v_i(t,o,4,31).
+v_i(r,i,5,7).
+v_i(r,o,5,1).
+v_i(r,o,5,40000).
+v_i(r,o,5,23).
+v_i(r,o,5,8).
+v_i(r,o,5,22).
+v_i(r,i,6,1).
+v_i(r,o,6,2).
+v_i(f,i,7,28).
+v_i(f,o,7,32).
+v_i(t,i,8,11).
+v_i(t,o,8,6).
+v_i(t,o,8,28).
+v_i(r,i,9,6).
+v_i(r,o,9,3).
+v_i(r,o,9,16).
+v_i(r,o,9,15).
+v_i(r,i,10,3).
+v_i(r,o,10,4).
+v_i(r,i,11,11).
+v_i(r,o,11,29).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',8 ]).
+attri_i(3,[ 'CountryId',int,4,0,'ZZZ9',0,'Country Id','',0 ]).
+attri_i(6,[ 'CustomerId',int,4,0,'ZZZ9',0,'Customer Id','',0 ]).
+attri_i(1,[ 'CategoryId',int,4,0,'ZZZ9',0,'Category Id','',0 ]).
+attri_i(7,[ 'ProductId',int,4,0,'ZZZ9',0,'Product Id','',0 ]).
+attri_i(2,[ 'CategoryName',char,20,0,'',0,'Category Name','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',7 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',6 ]).
+attri_i(29,[ 'ShoppingCartFinalPrice',int,10,2,'$ ZZZZZZ9.99',0,'Shopping Cart Final Price','',0 ]).
+attri_i(4,[ 'CountryName',char,20,0,'',0,'Country Name','',0 ]).
+attri_i(16,[ 'CustomerAddress',svchar,1024,0,'',0,'Customer Address','',0 ]).
+attri_i(15,[ 'CustomerName',char,20,0,'',0,'Customer Name','',0 ]).
+attri_i(32,[ 'ShoppingCartDateDelivery',date,8,0,'99/99/99',0,'Shopping Cart Date Delivery','',0 ]).
+attri_i(28,[ 'ShoppingCartDate',date,8,0,'99/99/99',0,'Shopping Cart Date','',0 ]).
+attri_i(11,[ 'ShoppingCartId',int,4,0,'ZZZ9',0,'Shopping Cart Id','',0 ]).
+attri_i(23,[ 'ProductPhoto',bits,4,0,'',0,'Product Photo','',0 ]).
+attri_i(30,[ 'TotalProduct',int,10,2,'$ ZZZZZZ9.99',0,'Total Product','',0 ]).
+attri_i(31,[ 'QtyProduct',int,4,0,'ZZZ9',0,'Qty Product','',0 ]).
+attri_i(22,[ 'ProductPrice',int,10,2,'$ ZZZZZZ9.99',0,'Product Price','',0 ]).
+attri_i(8,[ 'ProductName',char,20,0,'',0,'Product Name','',0 ]).
+attri_i(40000,[ 'ProductPhoto_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',3 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',2 ]).
+ 
+table_i(1,[ 'Category',[ 1,2 ],'Category','Category' ]).
+table_i(5,[ 'Product',[ 7,8,22,23,40000,1 ],'Product','Product' ]).
+table_i(9,[ 'ShoppingCartProduct',[ 11,7,31 ],'Product','ShoppingCartProduct' ]).
+table_i(2000,[ 'ShoppingCart',[ 29,11 ],'Shopping Cart','ShoppingCart' ]).
+table_i(2,[ 'Country',[ 3,4 ],'Country','Country' ]).
+table_i(4,[ 'Customer',[ 6,15,16,3 ],'Customer','Customer' ]).
+table_i(8,[ 'ShoppingCart',[ 11,28,6 ],'Shopping Cart','ShoppingCart' ]).
+ 
+index_i(9,[ '',a,[ 8 ],'' ]).
+index_i(9,[ 'ISHOPPINGCARTPRODUCT',u,[ 11,7 ],'IShoppingCartProduct' ]).
+index_i(5,[ 'IPRODUCT',u,[ 7 ],'IProduct' ]).
+index_i(1,[ 'ICATEGORY',u,[ 1 ],'ICategory' ]).
+index_i(8,[ 'ISHOPPINGCART',u,[ 11 ],'IShoppingCart' ]).
+index_i(4,[ 'ICUSTOMER',u,[ 6 ],'ICustomer' ]).
+index_i(2,[ 'ICOUNTRY',u,[ 3 ],'ICountry' ]).
+index_i(2000,[ 'ISHOPPINGCART',u,[ 11 ],'IShoppingCart' ]).
+ 
+lv_i(2,2000,8).
+ 
+ 
+ 
+ 
+nav_view_i(2000,[ 29 ],[ 11 ],[ 11 ],[ [ 2000,[ [ 8,oe([ t(11,2) ]),11 ] ] ] ],[ [ [ 9,[ 'sum(',se(30,[ [ 9,31 ],[ 5,22 ],[ 1,2 ] ],[ t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(+,5),t('5',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Joyería"',3),t(';',18),t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(-,5),t('10',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Entretenimiento"',3),t(';',18),t(31,2),t(*,6),t(22,2),t('OTHERWISE',19) ]) ] ],[ 9,11 ] ],n,[ [ 9,many ],[ 5,one ],[ 1,one ] ],[ [ 5,[ [ 9,7,7 ] ] ],[ 1,[ [ 5,1,1 ] ] ] ],[],[ none ],[],[ 11 ],[] ]).
+ 
+ 
+agg_def_i(29,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+sql_no_eval_hor_i(3,30).
+sql_no_eval_hor_i(2,32).
+ 
+add_att_i(bits,2,40000,23,'ProductPhoto_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40001,12,'CountryFlag_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40002,14,'SellerPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 11,2,11,= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(11,2),t(=,10),t(11,23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(89,[ 'Name' ]).
+dom_info_i(88,[ 'Id' ]).
+dom_info_i(43,[ 'GeneXus\Address' ]).
+dom_info_i(45,[ 'GeneXus\Email' ]).
+dom_info_i(48,[ 'GeneXus\Phone' ]).
+ 
+ 
+break_i(3,nvg,2,[ 8 ],[ [ 8,22,31,30,23,40000 ],[],[] ]).
+break_i(2,nvg,1,[],[ [ 11,28,32,15,16,4,29 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,10).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,12,26).
+b_group_i(2,2,nvg,3,5,5).
+b_group_i(3,1,lit,0,28,34).
+b_group_i(2,3,lit,0,35,34).
+b_group_i(1,3,lit,0,36,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,pb,0,[ t('Title',29,0,7) ]).
+b_line_i([ 1,0 ],1,1,line,0,[ t(' ',3,0,0) ]).
+b_line_i([ 1,2 ],1,1,line,2,[ t('My Shopping Cart',3,2,38) ]).
+b_line_i([ 1,9 ],1,1,line,9,[ t(' ',3,9,0) ]).
+b_line_i(2,2,1,cmd,12,[ t('',121,2,0),t(table,3,2,10),t(8,3,2,10) ]).
+b_line_i(3,2,1,cmd,12,[]).
+b_line_i(4,2,1,pb,12,[ t('Cartdetail',29,12,8) ]).
+b_line_i([ 4,0 ],2,1,line,12,[ t(' ',3,0,0) ]).
+b_line_i([ 4,1 ],2,1,line,13,[ t('Shopping Cart:',3,1,8),t(11,2,1,25),t('Date:',3,1,35),t(28,2,1,44),t('Delivery Date:',3,1,67),t(32,2,1,85) ]).
+b_line_i([ 4,3 ],2,1,line,15,[ t('Customer:',3,3,8),t(15,2,3,23) ]).
+b_line_i([ 4,4 ],2,1,line,16,[ t(16,2,4,8) ]).
+b_line_i([ 4,6 ],2,1,line,18,[ t(4,2,6,8) ]).
+b_line_i([ 4,8 ],2,1,line,20,[ t('Total:',3,8,72),t(29,2,8,85),t('',3,8,85) ]).
+b_line_i([ 4,12 ],2,1,line,24,[ t('Product',3,12,8),t('Price',3,12,40),t('Quantity',3,12,64),t('Total',3,12,86) ]).
+b_line_i([ 4,13 ],2,1,line,25,[ t(' ',3,13,0) ]).
+b_line_i(5,3,1,cmd,28,[ t('',121,5,0),t(table,3,5,11),t(9,3,5,11),t('ORDER',39,5,97),t(8,2,5,103) ]).
+b_line_i(6,3,1,pb,28,[ t('Products',29,28,9) ]).
+b_line_i([ 6,0 ],3,1,line,28,[ t(' ',3,0,0) ]).
+b_line_i([ 6,1 ],3,1,line,29,[ t(23,2,1,8),t(40000,2,1,8) ]).
+b_line_i([ 6,2 ],3,1,line,30,[ t(8,2,2,17),t(22,2,2,40),t(31,2,2,64),t(30,2,2,86) ]).
+b_line_i([ 6,5 ],3,1,line,33,[ t(' ',3,5,0) ]).
+b_line_i(7,3,1,cmd,34,[ t('',128,7,0) ]).
+b_line_i(8,2,3,cmd,34,[ t('',128,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,8) ],'; poor performance may be noticed',[ ' in group starting at line ','5','' ],'.' ])).
+ 
+ 
+ 
+lit_i(2,1,t('My Shopping Cart',3),[ font('Microsoft Sans Serif',40,[ bold ]),rect(267,33,767,116),outstyle(none),align(left),valign(top),fore(rgb(255,20,147)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(29,1,bitmap(i(98,'7cd17ff6-f677-4e3b-9b83-a6eda26c92d3')),[ ctlname('Gxreportimage1'),rect(58,0,250,133) ]).
+lit_i(1,1,window,[ title('Text'),rect(0,0,827,157),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Title'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(3,4,t('Shopping Cart:',3),[ font('Times New Roman',12,[ bold ]),rect(58,17,166,37),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(4,4,t(11,2),[ font('Times New Roman',12,[]),rect(175,17,209,38),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('11'),ctrltype(edit,4),ispwd(0),gxcolor([]) ]).
+lit_i(5,4,t('Date:',3),[ font('Times New Roman',12,[ bold ]),rect(250,17,292,37),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(6,4,t(28,2),[ font('Times New Roman',12,[]),rect(308,17,400,38),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('28'),ctrltype(edit,6),ispwd(0),gxcolor([]) ]).
+lit_i(7,4,t('Delivery Date:',3),[ font('Times New Roman',12,[ bold ]),rect(475,17,592,37),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(8,4,t(32,2),[ font('Times New Roman',12,[]),rect(600,17,700,38),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('32'),ctrltype(edit,8),ispwd(0),gxcolor([]) ]).
+lit_i(9,4,t('Customer:',3),[ font('Times New Roman',12,[ bold ]),rect(58,50,133,70),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(10,4,t(15,2),[ font('Times New Roman',12,[]),rect(167,50,334,71),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('15'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(11,4,t(16,2),[ font('Times New Roman',12,[]),rect(58,67,446,88),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('16'),ctrltype(edit,11),ispwd(0),gxcolor([]) ]).
+lit_i(12,4,t(4,2),[ font('Times New Roman',12,[]),rect(58,100,184,121),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('4'),ctrltype(edit,12),ispwd(0),gxcolor([]) ]).
+lit_i(13,4,t('Total:',3),[ font('Times New Roman',12,[ bold ]),rect(508,133,550,153),outstyle(none),align(left),valign(top),fore(rgb(25,25,112)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(14,4,t(29,2),[ font('Times New Roman',12,[]),rect(600,133,700,154),outstyle(none),align(right),valign(top),fore(rgb(25,25,112)),border(1),format(0),ctlname('29'),ctrltype(edit,14),ispwd(0),gxcolor([]) ]).
+lit_i(15,4,t('',3),[ font('Times New Roman',12,[]),rect(600,133,608,150),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel7'),gxcolor([]) ]).
+lit_i(17,4,rect(17),[ rect(58,167,725,167),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(21,4,t('Total',3),[ font('Times New Roman',12,[ bold ]),rect(608,183,658,203),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel12'),gxcolor([]) ]).
+lit_i(20,4,t('Quantity',3),[ font('Times New Roman',12,[ bold ]),rect(450,183,517,203),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel11'),gxcolor([]) ]).
+lit_i(19,4,t('Price',3),[ font('Times New Roman',12,[ bold ]),rect(283,183,333,203),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel10'),gxcolor([]) ]).
+lit_i(18,4,t('Product',3),[ font('Times New Roman',12,[ bold ]),rect(58,183,133,203),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel9'),gxcolor([]) ]).
+lit_i(3,4,window,[ title('Text'),rect(0,0,827,215),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Cartdetail'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(23,6,t(22,2),[ font('Times New Roman',12,[]),rect(283,33,350,54),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('22'),ctrltype(edit,23),ispwd(0),gxcolor([]) ]).
+lit_i(24,6,t(8,2),[ font('Times New Roman',12,[]),rect(125,33,267,54),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('8'),ctrltype(edit,24),ispwd(0),gxcolor([]) ]).
+lit_i(25,6,t(31,2),[ font('Times New Roman',12,[]),rect(450,33,483,54),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('31'),ctrltype(edit,25),ispwd(0),gxcolor([]) ]).
+lit_i(26,6,t(30,2),[ font('Times New Roman',12,[]),rect(608,33,675,54),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('30'),ctrltype(edit,26),ispwd(0),gxcolor([]) ]).
+lit_i(22,6,t(23,2),[ font('Times New Roman',12,[]),rect(58,17,108,50),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('23'),ctrltype(edit,22),ispwd(0),gxcolor([]) ]).
+lit_i(1,6,window,[ title('Text'),rect(0,0,827,100),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Products'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,8,'ExternalName','ProductName',d).
+att_prop_i(2,8,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,idBasedOn,89,v).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'DownloadOffline','0',d).
+att_prop_i(2,8,'VarServiceExtName','',d).
+att_prop_i(2,8,'FullName','ProductName',v).
+att_prop_i(2,22,'ExternalName','ProductPrice',d).
+att_prop_i(2,22,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,22,'EmptyAsNull','Yes',d).
+att_prop_i(2,22,idBasedOn,'',d).
+att_prop_i(2,22,'AUTONUMBER','0',d).
+att_prop_i(2,22,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,22,'AttRegEx','',d).
+att_prop_i(2,22,'AttValidationFailedMsg','',d).
+att_prop_i(2,22,'DownloadOffline','0',d).
+att_prop_i(2,22,'VarServiceExtName','',d).
+att_prop_i(2,22,'FullName','ProductPrice',v).
+att_prop_i(2,31,'ExternalName','QtyProduct',d).
+att_prop_i(2,31,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,31,'EmptyAsNull','Yes',v).
+att_prop_i(2,31,idBasedOn,'',d).
+att_prop_i(2,31,'AUTONUMBER','0',v).
+att_prop_i(2,31,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,31,'AttRegEx','',d).
+att_prop_i(2,31,'AttValidationFailedMsg','',d).
+att_prop_i(2,31,'DownloadOffline','0',d).
+att_prop_i(2,31,'VarServiceExtName','',d).
+att_prop_i(2,31,'FullName','QtyProduct',v).
+att_prop_i(2,30,'ExternalName','TotalProduct',d).
+att_prop_i(2,30,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,30,idBasedOn,'',d).
+att_prop_i(2,30,'DownloadOffline','0',d).
+att_prop_i(2,30,'VarServiceExtName','',d).
+att_prop_i(2,30,'FullName','TotalProduct',v).
+att_prop_i(2,23,'ExternalName','ProductPhoto',d).
+att_prop_i(2,23,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,23,'EmptyAsNull','Yes',d).
+att_prop_i(2,23,'ExternalStorage','-1',d).
+att_prop_i(2,23,idBasedOn,'',d).
+att_prop_i(2,23,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,23,'AttRegEx','',d).
+att_prop_i(2,23,'AttValidationFailedMsg','',d).
+att_prop_i(2,23,'DownloadOffline','0',d).
+att_prop_i(2,23,'VarServiceExtName','',d).
+att_prop_i(2,23,'FullName','ProductPhoto',v).
+att_prop_i(2,11,'ExternalName','ShoppingCartId',d).
+att_prop_i(2,11,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,88,v).
+att_prop_i(2,11,'AUTONUMBER','-1',d).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'DownloadOffline','0',d).
+att_prop_i(2,11,'VarServiceExtName','',d).
+att_prop_i(2,11,'FullName','ShoppingCartId',v).
+att_prop_i(2,28,'ExternalName','ShoppingCartDate',d).
+att_prop_i(2,28,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,28,'EmptyAsNull','Yes',d).
+att_prop_i(2,28,idBasedOn,'',d).
+att_prop_i(2,28,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,28,'AttRegEx','',d).
+att_prop_i(2,28,'AttValidationFailedMsg','',d).
+att_prop_i(2,28,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,28,'DownloadOffline','0',d).
+att_prop_i(2,28,'VarServiceExtName','',d).
+att_prop_i(2,28,'FullName','ShoppingCartDate',v).
+att_prop_i(2,32,'ExternalName','ShoppingCartDateDelivery',d).
+att_prop_i(2,32,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,32,idBasedOn,'',d).
+att_prop_i(2,32,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'VarServiceExtName','',d).
+att_prop_i(2,32,'FullName','ShoppingCartDateDelivery',v).
+att_prop_i(2,15,'ExternalName','CustomerName',d).
+att_prop_i(2,15,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,89,v).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','CustomerName',v).
+att_prop_i(2,16,'ExternalName','CustomerAddress',d).
+att_prop_i(2,16,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,idBasedOn,43,v).
+att_prop_i(2,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,16,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'DownloadOffline','0',d).
+att_prop_i(2,16,'VarServiceExtName','',d).
+att_prop_i(2,16,'FullName','CustomerAddress',v).
+att_prop_i(2,4,'ExternalName','CountryName',d).
+att_prop_i(2,4,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,idBasedOn,89,v).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'DownloadOffline','0',d).
+att_prop_i(2,4,'VarServiceExtName','',d).
+att_prop_i(2,4,'FullName','CountryName',v).
+att_prop_i(2,29,'ExternalName','ShoppingCartFinalPrice',d).
+att_prop_i(2,29,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,29,idBasedOn,'',d).
+att_prop_i(2,29,'DownloadOffline','0',d).
+att_prop_i(2,29,'VarServiceExtName','',d).
+att_prop_i(2,29,'FullName','ShoppingCartFinalPrice',v).
+att_prop_i(2,2,'ExternalName','CategoryName',d).
+att_prop_i(2,2,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,2,'EmptyAsNull','Yes',d).
+att_prop_i(2,2,idBasedOn,'',d).
+att_prop_i(2,2,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,2,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,2,'AttRegEx','',d).
+att_prop_i(2,2,'AttValidationFailedMsg','',d).
+att_prop_i(2,2,'DownloadOffline','0',d).
+att_prop_i(2,2,'VarServiceExtName','',d).
+att_prop_i(2,2,'FullName','CategoryName',v).
+att_prop_i(2,7,'ExternalName','ProductId',d).
+att_prop_i(2,7,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,88,v).
+att_prop_i(2,7,'AUTONUMBER','-1',v).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',v).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','ProductId',v).
+att_prop_i(2,1,'ExternalName','CategoryId',d).
+att_prop_i(2,1,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,88,v).
+att_prop_i(2,1,'AUTONUMBER','-1',v).
+att_prop_i(2,1,'AUTONUMBER_START','1',d).
+att_prop_i(2,1,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,1,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'DownloadOffline','0',d).
+att_prop_i(2,1,'VarServiceExtName','',d).
+att_prop_i(2,1,'FullName','CategoryId',v).
+att_prop_i(2,6,'ExternalName','CustomerId',d).
+att_prop_i(2,6,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,88,v).
+att_prop_i(2,6,'AUTONUMBER','-1',d).
+att_prop_i(2,6,'AUTONUMBER_START','1',d).
+att_prop_i(2,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName','CustomerId',v).
+att_prop_i(2,3,'ExternalName','CountryId',d).
+att_prop_i(2,3,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,3,'EmptyAsNull','Yes',d).
+att_prop_i(2,3,idBasedOn,88,v).
+att_prop_i(2,3,'AUTONUMBER','-1',v).
+att_prop_i(2,3,'AUTONUMBER_START','1',v).
+att_prop_i(2,3,'AUTONUMBER_STEP','1',v).
+att_prop_i(2,3,'AUTONUMBER_FORREPLICATION','-1',v).
+att_prop_i(2,3,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,3,'AttRegEx','',d).
+att_prop_i(2,3,'AttValidationFailedMsg','',d).
+att_prop_i(2,3,'DownloadOffline','0',d).
+att_prop_i(2,3,'VarServiceExtName','',d).
+att_prop_i(2,3,'FullName','CountryId',v).
+att_prop_i(2,40000,'ExternalName','',d).
+att_prop_i(2,40000,'ExternalNamespace','',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'AUTONUMBER','0',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'FullName','',v).
+ 
+tbl_prop_i(2,4,'AllDirSuper',[ [ 2,[ 3 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 1,[ 1 ] ] ],v).
+tbl_prop_i(2,9,'AllDirSuper',[ [ 5,[ 7 ] ],[ 8,[ 11 ] ] ],v).
+tbl_prop_i(2,8,'AllDirSuper',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 9,[ 11 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 4,[ 3 ] ],[ 5,[ 9 ] ] ],v).
+tbl_prop_i(2,4,'DirSubor',[ [ 8,[ 6 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 5,[ 1 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 9,[ 7 ] ] ],v).
+tbl_prop_i(2,8,'DirSubor',[ [ 9,[ 11 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,4,'DirSuper',[ [ 2,[ 3 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 1,[ 1 ] ] ],v).
+tbl_prop_i(2,9,'DirSuper',[ [ 5,[ 7 ] ],[ 8,[ 11 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 4,[ 6 ] ] ],v).
+ 
+tbl_att_prop_i(2,9,11,'AllowNulls',n).
+tbl_att_prop_i(2,9,7,'AllowNulls',n).
+tbl_att_prop_i(2,9,31,'AllowNulls',n).
+tbl_att_prop_i(2,5,7,'AllowNulls',n).
+tbl_att_prop_i(2,5,7,'AUTONUMBER',y).
+tbl_att_prop_i(2,5,8,'AllowNulls',n).
+tbl_att_prop_i(2,5,22,'AllowNulls',n).
+tbl_att_prop_i(2,5,23,'AllowNulls',n).
+tbl_att_prop_i(2,5,40000,'AllowNulls',n).
+tbl_att_prop_i(2,5,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,2,'AllowNulls',n).
+tbl_att_prop_i(2,8,11,'AllowNulls',n).
+tbl_att_prop_i(2,8,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,8,28,'AllowNulls',n).
+tbl_att_prop_i(2,8,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,15,'AllowNulls',n).
+tbl_att_prop_i(2,4,16,'AllowNulls',n).
+tbl_att_prop_i(2,4,3,'AllowNulls',n).
+tbl_att_prop_i(2,2,3,'AllowNulls',n).
+tbl_att_prop_i(2,2,3,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,4,'AllowNulls',n).
+tbl_att_prop_i(2,2000,11,'AllowNulls',n).
+tbl_att_prop_i(2,2000,11,'AUTONUMBER',y).
+ 
+ 
+ 
+ 
+a_alias_i([ 'sum(',se(30,[ [ 9,31 ],[ 5,22 ],[ 1,2 ] ],[ t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(+,5),t('5',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Joyería"',3),t(';',18),t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(-,5),t('10',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Entretenimiento"',3),t(';',18),t(31,2),t(*,6),t(22,2),t('OTHERWISE',19) ]) ],'ShoppingCartFinalPrice').
+a_alias_i(se(29,[ [ 2000,29 ] ],[ t('coalesce(',1),t(29,2),t(',',7),t('0',3),t(')',4) ]),'ShoppingCartFinalPrice').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,15,'SHOPPINGCARTDETAIL','HTTP','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\developermenu.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\developermenu\obj\Release\developermenu.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\developermenu\obj\Release\developermenu.dll

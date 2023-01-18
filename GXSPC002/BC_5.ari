@@ -1,0 +1,27 @@
+bc_dt_elem_i([ 0,5,0 ],'Shoppingcartid',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Shoppingcartdate',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Shoppingcartdatedelivery',readonly,yes).
+bc_dt_elem_i([ 0,5,0 ],'Customerid',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Customername',readonly,yes).
+bc_dt_elem_i([ 0,5,0 ],'Customername',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Countryid',readonly,yes).
+bc_dt_elem_i([ 0,5,0 ],'Countryid',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Countryname',readonly,yes).
+bc_dt_elem_i([ 0,5,0 ],'Countryname',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Customeraddress',readonly,yes).
+bc_dt_elem_i([ 0,5,0 ],'Customeraddress',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Customerphone',readonly,yes).
+bc_dt_elem_i([ 0,5,0 ],'Customerphone',allownulls,no).
+bc_dt_elem_i([ 0,5,0 ],'Shoppingcartfinalprice',readonly,yes).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Productid',allownulls,no).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Productname',readonly,yes).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Productname',allownulls,no).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Productprice',readonly,yes).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Productprice',allownulls,no).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Qtyproduct',allownulls,no).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Totalproduct',readonly,yes).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Categoryid',readonly,yes).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Categoryid',allownulls,no).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Categoryname',readonly,yes).
+bc_dt_elem_i([ 0,5,[ 7,11 ] ],'Categoryname',allownulls,no).
+ 

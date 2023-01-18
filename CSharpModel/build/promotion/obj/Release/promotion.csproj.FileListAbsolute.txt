@@ -1,0 +1,3 @@
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\web\bin\promotion.dll
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\promotion\obj\Release\promotion.csprojResolveAssemblyReference.cache
+C:\Models\TallerJAP2022KarenRubiaca\CSharpModel\build\promotion\obj\Release\promotion.dll

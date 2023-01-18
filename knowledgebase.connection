@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_TallerJAP2022KarenRubiaca</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-7BCDOBV\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\TallerJAP2022KarenRubiaca</Directory>
+	<DataFile>GX_KB_TallerJAP2022KarenRubiaca.mdf</DataFile>
+	<LogFile>GX_KB_TallerJAP2022KarenRubiaca_log.ldf</LogFile>
+	<HostName>DESKTOP-7BCDOBV</HostName>
+</ConnectionInformation>

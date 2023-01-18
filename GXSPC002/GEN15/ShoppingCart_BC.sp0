@@ -1,0 +1,1069 @@
+spec_i([ trn,5,'Shopping Cart','ShoppingCart_BC',[],eng,'17_0_11-163677' ]).
+ 
+struct_i(8,0,[ 'Websession' ],[]).
+struct_i(9,8,[ 11,29 ],[ 29 ]).
+ 
+level_i(9,[ 9,[ [ 9,many ],[ 5,one ],[ 1,one ] ],[ 11,7 ],[],[],[],[ 11,7 ],'ISHOPPINGCARTPRODUCT',[ 9,[ [ [],11,11 ] ] ],[] ]).
+level_i(8,[ 8,[ [ 8,many ],[ 4,one ],[ 2,one ],[ 2000,one ] ],[ 11 ],[],[],[],[ 11 ],'ISHOPPINGCART',[ 8,[] ],[] ]).
+ 
+tw_i(9,[ [ 5,[ [ 9,7,7 ] ] ],[ 1,[ [ 5,1,1 ] ] ] ]).
+tw_i(8,[ [ 4,[ [ 8,6,6 ] ] ],[ 2,[ [ 4,3,3 ] ] ],[ 2000,[ [ 8,oe([ t(11,2) ]),11 ] ] ] ]).
+ 
+lwi_i(9,[ [] ]).
+lwi_i(8,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(9,[ [ [ 9,11 ],[ 5,8 ],[ 5,22 ],[ 9,31 ],[ 1,2 ],[ 9,7 ],[ 5,1 ] ] ]).
+ta_i(8,[ [ [ 8,11 ],[ 8,28 ],[ 4,15 ],[ 2,4 ],[ 4,16 ],[ 4,18 ],[ 8,6 ],[ 4,3 ],[ 2000,se(29,[ [ 2000,29 ] ],[ t('coalesce(',1),t(29,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(9,[ [ 11,7,29,30,8,22,31,1,2 ] ]).
+las_i(8,[ [ 'Websession',11,'GxBScreen',32,28,6,15,3,4,16,18,29 ] ]).
+ 
+lac_i(9,[ [ 7,31 ] ]).
+lac_i(8,[ [ 11,28,6 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+default_i(e(28,4,3,[ t('today(',1),t(')',4) ])).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','DESKTOP-7BCDOBV\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','TallerJAP2022KarenRubiaca')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ShoppingCart')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER',o(13,'ViewShoppingCart'))).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'RwdMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','TallerJAP2022KarenRubiaca')).
+rule_i(0,prop('ExternalName','ShoppingCart')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Shopping Cart')).
+rule_i(0,prop('ObjName','ShoppingCart')).
+rule_i(0,rule([ a(22,[ 'Dlt','"Delete"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(8,rule([ a(1,msg([ t('"Field Shopping Cart Date is out of range"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(28,2),t(')',4),t('.OR.',9),t(28,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 28 ])).
+rule_i(8,rule([ a(99,[ [ oe([ t(11,2) ]) ] ]) ],[],[ insert,update,delete ],[ oe([ t(11,2) ]) ])).
+rule_i(8,rule([ a(1,[ t('"You cannot delete today''s cart"',3) ]) ],[ t(28,2),t(=,10),t('today(',1),t(')',4) ],[ insert,update,delete,display ],[ 28 ])).
+rule_i(8,rule([ a(19,[ [ 6 ],msg([ t('"No matching ''Customer''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 6 ])).
+rule_i(8,rule([ a(19,[ [ 3 ],msg([ t('"No matching ''Country''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 3 ])).
+rule_i(9,rule([ a(19,[ [ 7 ],msg([ t('"No matching ''Product''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 7 ])).
+rule_i(9,rule([ a(19,[ [ 1 ],msg([ t('"No matching ''Category''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 1 ])).
+ 
+a_i(1,8,b,0,[],[ [],[ a(1,msg([ t('"Field Shopping Cart Date is out of range"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(28,2),t(')',4),t('.OR.',9),t(28,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(2,8,f,32,[],[ [],[ t(28,2),t(+,5),t('5',3),t(';',18) ] ]).
+a_i(3,8,f,28,[],[ [ insert ],[ t('today(',1),t(')',4),t('IF',17),t(insert,1),t('AND',9),t('null1(',1),t(28,2),t(')',4),t('AND',9),t('GxBScreen',23),t(=,10),t(0,3),t(';',18) ] ]).
+a_i(4,8,b,1,[ bdelete ],[ [],[ a(1,[ t('"You cannot delete today''s cart"',3) ]) ],[ t(28,2),t(=,10),t('today(',1),t(')',4) ] ]).
+a_i(5,9,f,30,[],[ [],[ t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(+,5),t('5',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Joyería"',3),t(';',18),t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(-,5),t('10',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Entretenimiento"',3),t(';',18),t(31,2),t(*,6),t(22,2),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(6,9,f,29,[],[ [ insert,update,delete ],[ t('old(',1),t(29,2),t(')',4),t(+,5),t(30,2),t('IF',17),t(insert,1),t(';',18),t('old(',1),t(29,2),t(')',4),t(+,5),t(30,2),t(-,5),t('old(',1),t(30,2),t(')',4),t('IF',17),t(update,1),t(';',18),t('old(',1),t(29,2),t(')',4),t(-,5),t('old(',1),t(30,2),t(')',4),t('IF',17),t(delete,1),t(';',18) ] ]).
+a_i(7,8,t,8,[],[ [ [ [],11,11 ] ],'ISHOPPINGCART',[] ]).
+a_i(8,8,r,4,[],[ [ [ 8,6,6 ] ],'ICUSTOMER',[] ]).
+a_i(9,8,r,2,[],[ [ [ 4,3,3 ] ],'ICOUNTRY',[] ]).
+a_i(10,8,r,2000,[],[ [ [ 8,oe([ t(11,2) ]),11 ] ],'ISHOPPINGCART',[] ]).
+a_i(11,9,t,9,[],[ [ [ [],11,11 ],[ [],7,7 ] ],'ISHOPPINGCARTPRODUCT',[] ]).
+a_i(12,9,r,5,[],[ [ [ 9,7,7 ] ],'IPRODUCT',[] ]).
+a_i(13,9,r,1,[],[ [ [ 5,1,1 ] ],'ICATEGORY',[] ]).
+a_i(14,8,f,'GxBScreen',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(b,i,1,28).
+v_i(b,o,1,[]).
+v_i(f,i,2,28).
+v_i(f,o,2,32).
+v_i(f,i,3,'GxBScreen').
+v_i(f,o,3,28).
+v_i(b,i,4,28).
+v_i(b,o,4,[]).
+v_i(f,i,5,31).
+v_i(f,i,5,22).
+v_i(f,i,5,2).
+v_i(f,o,5,30).
+v_i(f,i,6,30).
+v_i(f,o,6,29).
+v_i(t,i,7,11).
+v_i(t,o,7,28).
+v_i(t,o,7,6).
+v_i(r,i,8,6).
+v_i(r,o,8,15).
+v_i(r,o,8,16).
+v_i(r,o,8,18).
+v_i(r,o,8,3).
+v_i(r,i,9,3).
+v_i(r,o,9,4).
+v_i(r,i,10,11).
+v_i(r,o,10,29).
+v_i(t,i,11,11).
+v_i(t,i,11,7).
+v_i(t,o,11,31).
+v_i(r,i,12,7).
+v_i(r,o,12,8).
+v_i(r,o,12,22).
+v_i(r,o,12,1).
+v_i(r,i,13,1).
+v_i(r,o,13,2).
+v_i(f,i,14,[]).
+v_i(f,o,14,'GxBScreen').
+ 
+act_info_i(3,[ [ 28 ] ]).
+ 
+ca_i(6,29).
+ca_i(3,28).
+ 
+tbl_to_delete_i(8,[ 9,[ [ 8,11,11 ] ],d,'ISHOPPINGCARTPRODUCT',0,[ 11,7 ],'' ]).
+ 
+ 
+ 
+attri_i(30,[ 'TotalProduct',int,10,2,'$ ZZZZZZ9.99',0,'Total Product','',0 ]).
+attri_i(2,[ 'CategoryName',char,20,0,'',0,'Category Name','',0 ]).
+attri_i(1,[ 'CategoryId',int,4,0,'ZZZ9',0,'Category Id','',0 ]).
+attri_i(22,[ 'ProductPrice',int,10,2,'$ ZZZZZZ9.99',0,'Product Price','',0 ]).
+attri_i(8,[ 'ProductName',char,20,0,'',0,'Product Name','',0 ]).
+attri_i(31,[ 'QtyProduct',int,4,0,'ZZZ9',0,'Qty Product','',0 ]).
+attri_i(7,[ 'ProductId',int,4,0,'ZZZ9',0,'Product Id','',0 ]).
+attri_i(29,[ 'ShoppingCartFinalPrice',int,10,2,'$ ZZZZZZ9.99',0,'Shopping Cart Final Price','',0 ]).
+attri_i(18,[ 'CustomerPhone',char,20,0,'',0,'Customer Phone','',0 ]).
+attri_i(16,[ 'CustomerAddress',svchar,1024,0,'',0,'Customer Address','',0 ]).
+attri_i(4,[ 'CountryName',char,20,0,'',0,'Country Name','',0 ]).
+attri_i(3,[ 'CountryId',int,4,0,'ZZZ9',0,'Country Id','',0 ]).
+attri_i(15,[ 'CustomerName',char,20,0,'',0,'Customer Name','',0 ]).
+attri_i(6,[ 'CustomerId',int,4,0,'ZZZ9',0,'Customer Id','',0 ]).
+attri_i(28,[ 'ShoppingCartDate',date,8,0,'99/99/99',0,'Shopping Cart Date','',0 ]).
+attri_i(32,[ 'ShoppingCartDateDelivery',date,8,0,'99/99/99',0,'Shopping Cart Date Delivery','',0 ]).
+attri_i(11,[ 'ShoppingCartId',int,4,0,'ZZZ9',0,'Shopping Cart Id','',0 ]).
+attri_i('GxBScreen',[ 'Gx_BScreen',int,1,0,'',0,'','',13 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',12 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('TransactionContext.Attribute'),0,0,'',0,'Trn Context Att','',11 ]).
+attri_i('Trncontext',[ 'TrnContext',o('TransactionContext'),0,0,'',0,'Trn Context','',10 ]).
+attri_i('Shoppingcartid',[ 'ShoppingCartId',int,4,0,'ZZZ9',0,'Shopping Cart Id','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+attri_i('Insert_customerid',[ 'Insert_CustomerId',int,4,0,'ZZZ9',0,'Insert_Customer Id','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(2000,[ 'ShoppingCart',[ 29,11 ],'Shopping Cart','ShoppingCart' ]).
+table_i(2,[ 'Country',[ 3,4 ],'Country','Country' ]).
+table_i(4,[ 'Customer',[ 6,15,16,18,3 ],'Customer','Customer' ]).
+table_i(8,[ 'ShoppingCart',[ 11,28,6 ],'Shopping Cart','ShoppingCart' ]).
+table_i(1,[ 'Category',[ 1,2 ],'Category','Category' ]).
+table_i(5,[ 'Product',[ 7,8,22,1 ],'Product','Product' ]).
+table_i(9,[ 'ShoppingCartProduct',[ 11,7,31 ],'Product','ShoppingCartProduct' ]).
+ 
+index_i(9,[ 'ISHOPPINGCARTPRODUCT',u,[ 11,7 ],'IShoppingCartProduct' ]).
+index_i(5,[ 'IPRODUCT',u,[ 7 ],'IProduct' ]).
+index_i(1,[ 'ICATEGORY',u,[ 1 ],'ICategory' ]).
+index_i(8,[ 'ISHOPPINGCART',u,[ 11 ],'IShoppingCart' ]).
+index_i(4,[ 'ICUSTOMER',u,[ 6 ],'ICustomer' ]).
+index_i(2,[ 'ICOUNTRY',u,[ 3 ],'ICountry' ]).
+index_i(2000,[ 'ISHOPPINGCART',u,[ 11 ],'IShoppingCart' ]).
+ 
+lv_i(2,2000,8).
+ 
+ 
+function_i(9,29,no,old,'old(',[ 30 ],4,30,[ 2 ]).
+function_i(9,29,no,old,'old(',[ 29 ],3,29,[ 2 ]).
+function_i(9,29,no,old,'old(',[ 30 ],2,30,[ 2 ]).
+function_i(9,29,no,old,'old(',[ 29 ],1,29,[ 2 ]).
+function_i(9,29,no,old,'old(',[ 29 ],0,29,[ 2 ]).
+ 
+ 
+nav_view_i(2000,[ 29 ],[ 11 ],[ 11 ],[ [ 2000,[ [ 8,oe([ t(11,2) ]),11 ] ] ] ],[ [ [ 9,[ 'sum(',se(30,[ [ 9,31 ],[ 5,22 ],[ 1,2 ] ],[ t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(+,5),t('5',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Joyería"',3),t(';',18),t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(-,5),t('10',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Entretenimiento"',3),t(';',18),t(31,2),t(*,6),t(22,2),t('OTHERWISE',19) ]) ] ],[ 9,11 ] ],n,[ [ 9,many ],[ 5,one ],[ 1,one ] ],[ [ 5,[ [ 9,7,7 ] ] ],[ 1,[ [ 5,1,1 ] ] ] ],[],[ none ],[],[ 11 ],[] ]).
+ 
+ 
+agg_def_i(29,[ t('0',3) ]).
+ 
+for_ver_i(8,9,29,2000,'sum(',[ t(30,2) ],[],[ t('0',3) ]).
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,23,'ProductPhoto_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40001,12,'CountryFlag_GXI',[ svchar,2048,0,0 ]).
+ 
+upd_i(8,8,i,[ [ 28,6 ],[],'ISHOPPINGCART',[ [ [],11,11 ] ] ]).
+upd_i(8,8,u,[ [ 28,6 ],[],'ISHOPPINGCART',[] ]).
+upd_i(8,8,d,[ [],[],'ISHOPPINGCART',[] ]).
+upd_i(9,9,i,[ [ 11,31,7 ],[],'ISHOPPINGCARTPRODUCT',[ [ [],11,11 ],[ [],7,7 ] ] ]).
+upd_i(9,9,u,[ [ 31 ],[],'ISHOPPINGCARTPRODUCT',[] ]).
+upd_i(9,9,d,[ [],[],'ISHOPPINGCARTPRODUCT',[] ]).
+ 
+ 
+ 
+start_i(9,0,0,[ [ [ 11,2,11,= ] ],many ]).
+ 
+end_i(9,0,0,[ [ [ t(11,2),t(=,10),t(11,23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(88,[ 'Id' ]).
+dom_info_i(89,[ 'Name' ]).
+dom_info_i(43,[ 'GeneXus\Address' ]).
+dom_info_i(48,[ 'GeneXus\Phone' ]).
+dom_info_i(45,[ 'GeneXus\Email' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 11 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,30).
+b_group_i(2,3,lit,0,31,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(28,2,2,cmd,1,[ t('',147,28,0) ]).
+b_line_i(30,2,2,cmd,1,[ t('',146,30,0),t('After Trn',3,30,7) ]).
+b_line_i(31,2,3,cmd,1,[ t('',188,31,0),t(o(1,'ShoppingCartDetail'),28,1,2),t(11,2,1,28) ]).
+b_line_i(42,2,3,cmd,1,[ t('',147,42,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,11,'HORIZONTAL_DESCRIPTION','Shopping Cart Id',d).
+att_prop_i(2,11,'ExternalName','ShoppingCartId',d).
+att_prop_i(2,11,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,idBasedOn,88,v).
+att_prop_i(2,11,'AUTONUMBER','-1',d).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'DownloadOffline','0',d).
+att_prop_i(2,11,'VarServiceExtName','',d).
+att_prop_i(2,11,'FullName','ShoppingCartId',v).
+att_prop_i(2,28,'HORIZONTAL_DESCRIPTION','Shopping Cart Date',d).
+att_prop_i(2,28,'ExternalName','ShoppingCartDate',d).
+att_prop_i(2,28,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,28,'EmptyAsNull','Yes',d).
+att_prop_i(2,28,idBasedOn,'',d).
+att_prop_i(2,28,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,28,'AttRegEx','',d).
+att_prop_i(2,28,'AttValidationFailedMsg','',d).
+att_prop_i(2,28,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,28,'DownloadOffline','0',d).
+att_prop_i(2,28,'VarServiceExtName','',d).
+att_prop_i(2,28,'FullName','ShoppingCartDate',v).
+att_prop_i(2,32,'HORIZONTAL_DESCRIPTION','Shopping Cart Date Delivery',d).
+att_prop_i(2,32,'ExternalName','ShoppingCartDateDelivery',d).
+att_prop_i(2,32,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,32,idBasedOn,'',d).
+att_prop_i(2,32,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'VarServiceExtName','',d).
+att_prop_i(2,32,'FullName','ShoppingCartDateDelivery',v).
+att_prop_i(2,6,'HORIZONTAL_DESCRIPTION','Customer Id',d).
+att_prop_i(2,6,'ExternalName','CustomerId',d).
+att_prop_i(2,6,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,88,v).
+att_prop_i(2,6,'AUTONUMBER','-1',d).
+att_prop_i(2,6,'AUTONUMBER_START','1',d).
+att_prop_i(2,6,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,6,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName','CustomerId',v).
+att_prop_i(2,15,'HORIZONTAL_DESCRIPTION','Customer Name',d).
+att_prop_i(2,15,'ExternalName','CustomerName',d).
+att_prop_i(2,15,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,89,v).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','CustomerName',v).
+att_prop_i(2,3,'HORIZONTAL_DESCRIPTION','Country Id',d).
+att_prop_i(2,3,'ExternalName','CountryId',d).
+att_prop_i(2,3,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,3,'EmptyAsNull','Yes',d).
+att_prop_i(2,3,idBasedOn,88,v).
+att_prop_i(2,3,'AUTONUMBER','-1',v).
+att_prop_i(2,3,'AUTONUMBER_START','1',v).
+att_prop_i(2,3,'AUTONUMBER_STEP','1',v).
+att_prop_i(2,3,'AUTONUMBER_FORREPLICATION','-1',v).
+att_prop_i(2,3,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,3,'AttRegEx','',d).
+att_prop_i(2,3,'AttValidationFailedMsg','',d).
+att_prop_i(2,3,'DownloadOffline','0',d).
+att_prop_i(2,3,'VarServiceExtName','',d).
+att_prop_i(2,3,'FullName','CountryId',v).
+att_prop_i(2,4,'HORIZONTAL_DESCRIPTION','Country Name',d).
+att_prop_i(2,4,'ExternalName','CountryName',d).
+att_prop_i(2,4,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,idBasedOn,89,v).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'DownloadOffline','0',d).
+att_prop_i(2,4,'VarServiceExtName','',d).
+att_prop_i(2,4,'FullName','CountryName',v).
+att_prop_i(2,16,'HORIZONTAL_DESCRIPTION','Customer Address',d).
+att_prop_i(2,16,'ExternalName','CustomerAddress',d).
+att_prop_i(2,16,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,idBasedOn,43,v).
+att_prop_i(2,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,16,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'DownloadOffline','0',d).
+att_prop_i(2,16,'VarServiceExtName','',d).
+att_prop_i(2,16,'FullName','CustomerAddress',v).
+att_prop_i(2,18,'HORIZONTAL_DESCRIPTION','Customer Phone',d).
+att_prop_i(2,18,'ExternalName','CustomerPhone',d).
+att_prop_i(2,18,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,idBasedOn,48,v).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,'DownloadOffline','0',d).
+att_prop_i(2,18,'VarServiceExtName','',d).
+att_prop_i(2,18,'FullName','CustomerPhone',v).
+att_prop_i(2,29,'HORIZONTAL_DESCRIPTION','Shopping Cart Final Price',d).
+att_prop_i(2,29,'ExternalName','ShoppingCartFinalPrice',d).
+att_prop_i(2,29,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,29,idBasedOn,'',d).
+att_prop_i(2,29,'DownloadOffline','0',d).
+att_prop_i(2,29,'VarServiceExtName','',d).
+att_prop_i(2,29,'FullName','ShoppingCartFinalPrice',v).
+att_prop_i(2,7,'HORIZONTAL_DESCRIPTION','Product Id',d).
+att_prop_i(2,7,'ExternalName','ProductId',d).
+att_prop_i(2,7,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,88,v).
+att_prop_i(2,7,'AUTONUMBER','-1',v).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',v).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','ProductId',v).
+att_prop_i(2,8,'HORIZONTAL_DESCRIPTION','Product Name',d).
+att_prop_i(2,8,'ExternalName','ProductName',d).
+att_prop_i(2,8,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,idBasedOn,89,v).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'DownloadOffline','0',d).
+att_prop_i(2,8,'VarServiceExtName','',d).
+att_prop_i(2,8,'FullName','ProductName',v).
+att_prop_i(2,22,'HORIZONTAL_DESCRIPTION','Product Price',d).
+att_prop_i(2,22,'ExternalName','ProductPrice',d).
+att_prop_i(2,22,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,22,'EmptyAsNull','Yes',d).
+att_prop_i(2,22,idBasedOn,'',d).
+att_prop_i(2,22,'AUTONUMBER','0',d).
+att_prop_i(2,22,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,22,'AttRegEx','',d).
+att_prop_i(2,22,'AttValidationFailedMsg','',d).
+att_prop_i(2,22,'DownloadOffline','0',d).
+att_prop_i(2,22,'VarServiceExtName','',d).
+att_prop_i(2,22,'FullName','ProductPrice',v).
+att_prop_i(2,31,'HORIZONTAL_DESCRIPTION','Qty Product',d).
+att_prop_i(2,31,'ExternalName','QtyProduct',d).
+att_prop_i(2,31,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,31,'EmptyAsNull','Yes',v).
+att_prop_i(2,31,idBasedOn,'',d).
+att_prop_i(2,31,'AUTONUMBER','0',v).
+att_prop_i(2,31,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,31,'AttRegEx','',d).
+att_prop_i(2,31,'AttValidationFailedMsg','',d).
+att_prop_i(2,31,'DownloadOffline','0',d).
+att_prop_i(2,31,'VarServiceExtName','',d).
+att_prop_i(2,31,'FullName','QtyProduct',v).
+att_prop_i(2,30,'HORIZONTAL_DESCRIPTION','Total Product',d).
+att_prop_i(2,30,'ExternalName','TotalProduct',d).
+att_prop_i(2,30,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,30,idBasedOn,'',d).
+att_prop_i(2,30,'DownloadOffline','0',d).
+att_prop_i(2,30,'VarServiceExtName','',d).
+att_prop_i(2,30,'FullName','TotalProduct',v).
+att_prop_i(2,1,'HORIZONTAL_DESCRIPTION','Category Id',d).
+att_prop_i(2,1,'ExternalName','CategoryId',d).
+att_prop_i(2,1,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,88,v).
+att_prop_i(2,1,'AUTONUMBER','-1',v).
+att_prop_i(2,1,'AUTONUMBER_START','1',d).
+att_prop_i(2,1,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,1,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'DownloadOffline','0',d).
+att_prop_i(2,1,'VarServiceExtName','',d).
+att_prop_i(2,1,'FullName','CategoryId',v).
+att_prop_i(2,2,'HORIZONTAL_DESCRIPTION','Category Name',d).
+att_prop_i(2,2,'ExternalName','CategoryName',d).
+att_prop_i(2,2,'ExternalNamespace','TallerJAP2022KarenRubiaca',d).
+att_prop_i(2,2,'EmptyAsNull','Yes',d).
+att_prop_i(2,2,idBasedOn,'',d).
+att_prop_i(2,2,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,2,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,2,'AttRegEx','',d).
+att_prop_i(2,2,'AttValidationFailedMsg','',d).
+att_prop_i(2,2,'DownloadOffline','0',d).
+att_prop_i(2,2,'VarServiceExtName','',d).
+att_prop_i(2,2,'FullName','CategoryName',v).
+ 
+tbl_prop_i(2,4,'AllDirSuper',[ [ 2,[ 3 ] ] ],v).
+tbl_prop_i(2,8,'AllDirSuper',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,5,'AllDirSuper',[ [ 1,[ 1 ] ] ],v).
+tbl_prop_i(2,9,'AllDirSuper',[ [ 5,[ 7 ] ],[ 8,[ 11 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 9,[ 11 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 4,[ 3 ] ],[ 5,[ 9 ] ] ],v).
+tbl_prop_i(2,4,'DirSubor',[ [ 8,[ 6 ] ] ],v).
+tbl_prop_i(2,8,'DirSubor',[ [ 9,[ 11 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 5,[ 1 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 9,[ 7 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,4,'DirSuper',[ [ 2,[ 3 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 4,[ 6 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 1,[ 1 ] ] ],v).
+tbl_prop_i(2,9,'DirSuper',[ [ 5,[ 7 ] ],[ 8,[ 11 ] ] ],v).
+ 
+tbl_att_prop_i(2,9,31,'AllowNulls',n).
+tbl_att_prop_i(2,5,22,'AllowNulls',n).
+tbl_att_prop_i(2,9,7,'AllowNulls',n).
+tbl_att_prop_i(2,1,2,'AllowNulls',n).
+tbl_att_prop_i(2,5,1,'AllowNulls',n).
+tbl_att_prop_i(2,9,11,'AllowNulls',n).
+tbl_att_prop_i(2,5,7,'AllowNulls',n).
+tbl_att_prop_i(2,5,7,'AUTONUMBER',y).
+tbl_att_prop_i(2,5,8,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AUTONUMBER',y).
+tbl_att_prop_i(2,8,11,'AllowNulls',n).
+tbl_att_prop_i(2,8,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,8,28,'AllowNulls',n).
+tbl_att_prop_i(2,8,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AllowNulls',n).
+tbl_att_prop_i(2,4,6,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,15,'AllowNulls',n).
+tbl_att_prop_i(2,4,16,'AllowNulls',n).
+tbl_att_prop_i(2,4,18,'AllowNulls',n).
+tbl_att_prop_i(2,4,3,'AllowNulls',n).
+tbl_att_prop_i(2,2,3,'AllowNulls',n).
+tbl_att_prop_i(2,2,3,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,4,'AllowNulls',n).
+tbl_att_prop_i(2,2000,11,'AllowNulls',n).
+tbl_att_prop_i(2,2000,11,'AUTONUMBER',y).
+ 
+var_prop_i(2,'Insert_customerid',idBasedOn,'',v).
+var_prop_i(2,'Shoppingcartid',idBasedOn,'',v).
+ 
+i_tbl_best_trn(8,[ 5,1,'ShoppingCart','Shopping Cart',[ 32,29 ] ]).
+i_tbl_best_trn(9,[ 5,2,'ShoppingCart','Shopping Cart',[] ]).
+i_tbl_best_trn(4,[ 6,1,'Customer','Customer',[] ]).
+i_tbl_best_trn(2,[ 2,1,'Country','Country',[] ]).
+i_tbl_best_trn(2000,[ 5,1,'ShoppingCart','Shopping Cart',[] ]).
+i_tbl_best_trn(5,[ 4,1,'Product','Product',[] ]).
+i_tbl_best_trn(1,[ 1,1,'Category','Category',[] ]).
+ 
+ 
+a_alias_i([ 'sum(',se(30,[ [ 9,31 ],[ 5,22 ],[ 1,2 ] ],[ t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(+,5),t('5',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Joyería"',3),t(';',18),t(31,2),t(*,6),t(22,2),t(*,6),t('(',0),t('1',3),t(-,5),t('10',3),t(/,6),t('100',3),t(')',4),t('IF',17),t(2,2),t(=,10),t('"Entretenimiento"',3),t(';',18),t(31,2),t(*,6),t(22,2),t('OTHERWISE',19) ]) ],'ShoppingCartFinalPrice').
+a_alias_i(se(29,[ [ 2000,29 ] ],[ t('coalesce(',1),t(29,2),t(',',7),t('0',3),t(')',4) ]),'ShoppingCartFinalPrice').
+ 
+trn_level_i(8,[ [ 11,28,32,6,15,3,4,16,18,29 ],'ShoppingCart','Shopping Cart','ShoppingCart','',28 ]).
+trn_level_i(9,[ [ 7,8,22,31,30,1,2 ],'Product','Product','Product','',31 ]).
+ 
+struct_dt_i([ 26,58,0 ],name,'TransactionContext').
+struct_dt_i([ 26,58,0 ],namespace,'TallerJAP2022KarenRubiaca').
+struct_dt_i([ 26,58,0 ],'ObjName','TransactionContext').
+struct_dt_i([ 26,58,0 ],'ObjDesc','Transaction Context').
+struct_dt_i([ 26,58,0 ],'ExternalName','TransactionContext').
+struct_dt_i([ 26,58,0 ],'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_i([ 26,58,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,58,86 ],name,'Attribute').
+struct_dt_i([ 26,58,86 ],namespace,'TallerJAP2022KarenRubiaca.TransactionContext').
+struct_dt_i([ 0,5,0 ],name,'ShoppingCart').
+struct_dt_i([ 0,5,0 ],namespace,'TallerJAP2022KarenRubiaca').
+struct_dt_i([ 0,5,0 ],significantName,'ShoppingCart').
+struct_dt_i([ 0,5,0 ],'ObjName','ShoppingCart').
+struct_dt_i([ 0,5,0 ],'ObjDesc','Shopping Cart').
+struct_dt_i([ 0,5,0 ],'ExternalName','ShoppingCart').
+struct_dt_i([ 0,5,0 ],'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_i([ 0,5,0 ],key,[ 11 ]).
+struct_dt_i([ 0,5,0 ],lvl,8).
+struct_dt_i([ 0,5,[ 7,11 ] ],name,'Product').
+struct_dt_i([ 0,5,[ 7,11 ] ],namespace,'TallerJAP2022KarenRubiaca.ShoppingCart').
+struct_dt_i([ 0,5,[ 7,11 ] ],lvl,9).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,58,0 ],fullname,'TransactionContext').
+struct_dt_i([ 26,58,86 ],fullname,'TransactionContext.Attribute').
+struct_dt_i([ 0,5,0 ],fullname,'ShoppingCart').
+struct_dt_i([ 0,5,[ 7,11 ] ],fullname,'ShoppingCart.Product').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 26,58,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,58,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,58,0 ],1,basedon,53).
+struct_dt_elem_i([ 26,58,0 ],1,length,256).
+struct_dt_elem_i([ 26,58,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,58,0 ],1,pic,'').
+struct_dt_elem_i([ 26,58,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],1,'ExternalName','CallerObject').
+struct_dt_elem_i([ 26,58,0 ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,58,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,58,0 ],2,length,4).
+struct_dt_elem_i([ 26,58,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,58,0 ],2,pic,'').
+struct_dt_elem_i([ 26,58,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],2,'ExternalName','CallerOnDelete').
+struct_dt_elem_i([ 26,58,0 ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,58,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,58,0 ],3,basedon,32).
+struct_dt_elem_i([ 26,58,0 ],3,length,1000).
+struct_dt_elem_i([ 26,58,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,58,0 ],3,pic,'').
+struct_dt_elem_i([ 26,58,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],3,'ExternalName','CallerURL').
+struct_dt_elem_i([ 26,58,0 ],3,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,58,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,58,0 ],4,basedon,53).
+struct_dt_elem_i([ 26,58,0 ],4,length,256).
+struct_dt_elem_i([ 26,58,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,58,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,58,0 ],4,pic,'').
+struct_dt_elem_i([ 26,58,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,58,0 ],4,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,58,0 ],4,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,58,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,58,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,58,0 ],5,type,[ [ 26,58,86 ],0,0 ]).
+struct_dt_elem_i([ 26,58,0 ],5,pic,'').
+struct_dt_elem_i([ 26,58,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,58,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,58,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,58,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,58,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,58,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,58,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,58,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,58,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,58,0 ],5,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,58,86 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,58,86 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,58,86 ],1,length,128).
+struct_dt_elem_i([ 26,58,86 ],1,decimals,0).
+struct_dt_elem_i([ 26,58,86 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,58,86 ],1,pic,'').
+struct_dt_elem_i([ 26,58,86 ],1,collection,'False').
+struct_dt_elem_i([ 26,58,86 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,58,86 ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlName','').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,86 ],1,soaptype,'').
+struct_dt_elem_i([ 26,58,86 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,86 ],1,'JsonName','').
+struct_dt_elem_i([ 26,58,86 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,86 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,58,86 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,58,86 ],2,length,1000).
+struct_dt_elem_i([ 26,58,86 ],2,decimals,0).
+struct_dt_elem_i([ 26,58,86 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,58,86 ],2,pic,'').
+struct_dt_elem_i([ 26,58,86 ],2,collection,'False').
+struct_dt_elem_i([ 26,58,86 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,58,86 ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlName','').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,58,86 ],2,soaptype,'').
+struct_dt_elem_i([ 26,58,86 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,58,86 ],2,'JsonName','').
+struct_dt_elem_i([ 26,58,86 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 0,5,0 ],1,name,'Shoppingcartid').
+struct_dt_elem_i([ 0,5,0 ],1,camelname,'ShoppingCartId').
+struct_dt_elem_i([ 0,5,0 ],1,basedon,88).
+struct_dt_elem_i([ 0,5,0 ],1,length,4).
+struct_dt_elem_i([ 0,5,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],1,sign,0).
+struct_dt_elem_i([ 0,5,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,5,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],1,attributeid,'11').
+struct_dt_elem_i([ 0,5,0 ],1,'ExternalName','ShoppingCartId').
+struct_dt_elem_i([ 0,5,0 ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],2,name,'Shoppingcartdate').
+struct_dt_elem_i([ 0,5,0 ],2,camelname,'ShoppingCartDate').
+struct_dt_elem_i([ 0,5,0 ],2,length,8).
+struct_dt_elem_i([ 0,5,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,5,0 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 0,5,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],2,attributeid,'28').
+struct_dt_elem_i([ 0,5,0 ],2,'ExternalName','ShoppingCartDate').
+struct_dt_elem_i([ 0,5,0 ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],3,name,'Shoppingcartdatedelivery').
+struct_dt_elem_i([ 0,5,0 ],3,camelname,'ShoppingCartDateDelivery').
+struct_dt_elem_i([ 0,5,0 ],3,length,8).
+struct_dt_elem_i([ 0,5,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],3,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,5,0 ],3,pic,'99/99/99').
+struct_dt_elem_i([ 0,5,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],3,attributeid,'32').
+struct_dt_elem_i([ 0,5,0 ],3,'ExternalName','ShoppingCartDateDelivery').
+struct_dt_elem_i([ 0,5,0 ],3,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],4,name,'Customerid').
+struct_dt_elem_i([ 0,5,0 ],4,camelname,'CustomerId').
+struct_dt_elem_i([ 0,5,0 ],4,basedon,88).
+struct_dt_elem_i([ 0,5,0 ],4,length,4).
+struct_dt_elem_i([ 0,5,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],4,sign,0).
+struct_dt_elem_i([ 0,5,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 0,5,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],4,attributeid,'6').
+struct_dt_elem_i([ 0,5,0 ],4,'ExternalName','CustomerId').
+struct_dt_elem_i([ 0,5,0 ],4,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],5,name,'Customername').
+struct_dt_elem_i([ 0,5,0 ],5,camelname,'CustomerName').
+struct_dt_elem_i([ 0,5,0 ],5,basedon,89).
+struct_dt_elem_i([ 0,5,0 ],5,length,20).
+struct_dt_elem_i([ 0,5,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],5,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,5,0 ],5,pic,'').
+struct_dt_elem_i([ 0,5,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],5,attributeid,'15').
+struct_dt_elem_i([ 0,5,0 ],5,'ExternalName','CustomerName').
+struct_dt_elem_i([ 0,5,0 ],5,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],6,name,'Countryid').
+struct_dt_elem_i([ 0,5,0 ],6,camelname,'CountryId').
+struct_dt_elem_i([ 0,5,0 ],6,basedon,88).
+struct_dt_elem_i([ 0,5,0 ],6,length,4).
+struct_dt_elem_i([ 0,5,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],6,sign,0).
+struct_dt_elem_i([ 0,5,0 ],6,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,5,0 ],6,pic,'ZZZ9').
+struct_dt_elem_i([ 0,5,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],6,attributeid,'3').
+struct_dt_elem_i([ 0,5,0 ],6,'ExternalName','CountryId').
+struct_dt_elem_i([ 0,5,0 ],6,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],7,name,'Countryname').
+struct_dt_elem_i([ 0,5,0 ],7,camelname,'CountryName').
+struct_dt_elem_i([ 0,5,0 ],7,basedon,89).
+struct_dt_elem_i([ 0,5,0 ],7,length,20).
+struct_dt_elem_i([ 0,5,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],7,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,5,0 ],7,pic,'').
+struct_dt_elem_i([ 0,5,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],7,attributeid,'4').
+struct_dt_elem_i([ 0,5,0 ],7,'ExternalName','CountryName').
+struct_dt_elem_i([ 0,5,0 ],7,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],8,name,'Customeraddress').
+struct_dt_elem_i([ 0,5,0 ],8,camelname,'CustomerAddress').
+struct_dt_elem_i([ 0,5,0 ],8,basedon,43).
+struct_dt_elem_i([ 0,5,0 ],8,length,1024).
+struct_dt_elem_i([ 0,5,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],8,type,[ 13,1024,0 ]).
+struct_dt_elem_i([ 0,5,0 ],8,pic,'').
+struct_dt_elem_i([ 0,5,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],8,attributeid,'16').
+struct_dt_elem_i([ 0,5,0 ],8,'ExternalName','CustomerAddress').
+struct_dt_elem_i([ 0,5,0 ],8,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],9,name,'Customerphone').
+struct_dt_elem_i([ 0,5,0 ],9,camelname,'CustomerPhone').
+struct_dt_elem_i([ 0,5,0 ],9,basedon,48).
+struct_dt_elem_i([ 0,5,0 ],9,length,20).
+struct_dt_elem_i([ 0,5,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,5,0 ],9,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,5,0 ],9,pic,'').
+struct_dt_elem_i([ 0,5,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],9,attributeid,'18').
+struct_dt_elem_i([ 0,5,0 ],9,'ExternalName','CustomerPhone').
+struct_dt_elem_i([ 0,5,0 ],9,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],10,name,'Product').
+struct_dt_elem_i([ 0,5,0 ],10,camelname,'Product').
+struct_dt_elem_i([ 0,5,0 ],10,type,[ [ 0,5,[ 7,11 ] ],0,0 ]).
+struct_dt_elem_i([ 0,5,0 ],10,pic,'').
+struct_dt_elem_i([ 0,5,0 ],10,collection,'True').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,name,'Productid').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,camelname,'ProductId').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,basedon,88).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,length,4).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,decimals,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,sign,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,attributeid,'7').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,'ExternalName','ProductId').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,name,'Productname').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,camelname,'ProductName').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,basedon,89).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,length,20).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,decimals,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,pic,'').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,attributeid,'8').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,'ExternalName','ProductName').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,name,'Productprice').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,camelname,'ProductPrice').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,length,10).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,decimals,2).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,sign,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,pic,'$ ZZZZZZ9.99').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,attributeid,'22').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,'ExternalName','ProductPrice').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],3,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,name,'Qtyproduct').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,camelname,'QtyProduct').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,length,4).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,decimals,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,sign,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,attributeid,'31').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,'ExternalName','QtyProduct').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],4,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,name,'Totalproduct').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,camelname,'TotalProduct').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,length,10).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,decimals,2).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,sign,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,pic,'$ ZZZZZZ9.99').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,attributeid,'30').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,'ExternalName','TotalProduct').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],5,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,name,'Categoryid').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,camelname,'CategoryId').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,basedon,88).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,length,4).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,decimals,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,sign,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,pic,'ZZZ9').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,attributeid,'1').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,'ExternalName','CategoryId').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],6,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,name,'Categoryname').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,camelname,'CategoryName').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,length,20).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,decimals,0).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,pic,'').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,collection,'False').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,attributeid,'2').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,'ExternalName','CategoryName').
+struct_dt_elem_i([ 0,5,[ 7,11 ] ],7,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 0,5,0 ],11,name,'Shoppingcartfinalprice').
+struct_dt_elem_i([ 0,5,0 ],11,camelname,'ShoppingCartFinalPrice').
+struct_dt_elem_i([ 0,5,0 ],11,length,10).
+struct_dt_elem_i([ 0,5,0 ],11,decimals,2).
+struct_dt_elem_i([ 0,5,0 ],11,sign,0).
+struct_dt_elem_i([ 0,5,0 ],11,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,5,0 ],11,pic,'$ ZZZZZZ9.99').
+struct_dt_elem_i([ 0,5,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,5,0 ],11,attributeid,'29').
+struct_dt_elem_i([ 0,5,0 ],11,'ExternalName','ShoppingCartFinalPrice').
+struct_dt_elem_i([ 0,5,0 ],11,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,50).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','TallerJAP2022KarenRubiaca').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,58,0 ],3,pic,'99/99/99').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',1,28,[ [],[] ]).
+sub_info_i(146,'After Trn',30,42,[ [ 11 ],[ 11 ] ]).
+ 
+pgm_parm_i(proc,15,'SHOPPINGCARTDETAIL',[ [ int,4,0,0 ] ],[ [ 'ShoppingCartId',inout,[] ] ]).
+ 
+pgm_callprotocol_i(trn,5,'SHOPPINGCART_BC','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,15,'SHOPPINGCARTDETAIL','HTTP','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
